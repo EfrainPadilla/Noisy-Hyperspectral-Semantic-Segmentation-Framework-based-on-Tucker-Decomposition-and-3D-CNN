@@ -1,0 +1,381 @@
+2021-02-24 12:53:22.350626
+HSI= indianPines
+SNR= 60dB
+Alpha= alpha-1.0
+1699.1465020459775
+The rank3 for Tucker decomposition is:  69  obtained by Variational Bayes Matrix Factorization
+69
+2021-02-24 12:53:43.333060
+HSI= indianPines
+SNR= 55dB
+Alpha= alpha-1.0
+1709.335350439977
+The rank3 for Tucker decomposition is:  69  obtained by Variational Bayes Matrix Factorization
+69
+2021-02-24 12:54:04.441921
+HSI= indianPines
+SNR= 50dB
+Alpha= alpha-1.0
+1727.603469768114
+The rank3 for Tucker decomposition is:  68  obtained by Variational Bayes Matrix Factorization
+68
+2021-02-24 12:54:26.943465
+HSI= indianPines
+SNR= 45dB
+Alpha= alpha-1.0
+1803.8279325032045
+The rank3 for Tucker decomposition is:  68  obtained by Variational Bayes Matrix Factorization
+68
+2021-02-24 12:54:48.483208
+HSI= indianPines
+SNR= 40dB
+Alpha= alpha-1.0
+2043.508869309169
+The rank3 for Tucker decomposition is:  66  obtained by Variational Bayes Matrix Factorization
+66
+2021-02-24 12:55:10.437265
+HSI= indianPines
+SNR= 35dB
+Alpha= alpha-1.0
+2745.5666085365583
+The rank3 for Tucker decomposition is:  60  obtained by Variational Bayes Matrix Factorization
+60
+2021-02-24 12:55:31.519893
+HSI= indianPines
+SNR= 30dB
+Alpha= alpha-1.0
+4956.074939446631
+The rank3 for Tucker decomposition is:  47  obtained by Variational Bayes Matrix Factorization
+47
+2021-02-24 12:55:52.637476
+HSI= indianPines
+SNR= 25dB
+Alpha= alpha-1.0
+11733.692557380542
+The rank3 for Tucker decomposition is:  30  obtained by Variational Bayes Matrix Factorization
+30
+2021-02-24 12:56:13.852917
+HSI= indianPines
+SNR= 20dB
+Alpha= alpha-1.0
+32567.412060259805
+The rank3 for Tucker decomposition is:  18  obtained by Variational Bayes Matrix Factorization
+18
+2021-02-24 12:56:35.414474
+HSI= indianPines
+SNR= 15dB
+Alpha= alpha-1.0
+97866.58533424787
+The rank3 for Tucker decomposition is:  9  obtained by Variational Bayes Matrix Factorization
+9
+2021-02-24 12:56:56.655551
+HSI= indianPines
+SNR= 10dB
+Alpha= alpha-1.0
+300972.1575965554
+The rank3 for Tucker decomposition is:  4  obtained by Variational Bayes Matrix Factorization
+4
+2021-02-24 12:57:18.201087
+HSI= indianPines
+SNR= 5dB
+Alpha= alpha-1.0
+941744.6822199668
+The rank3 for Tucker decomposition is:  3  obtained by Variational Bayes Matrix Factorization
+3
+2021-02-24 12:57:39.676473
+HSI= indianPines
+SNR= 0dB
+Alpha= alpha-1.0
+2926287.3720422303
+The rank3 for Tucker decomposition is:  2  obtained by Variational Bayes Matrix Factorization
+2
+2021-02-24 12:58:00.399259
+HSI= indianPines
+SNR= -5dB
+Alpha= alpha-1.0
+9166967.231034517
+The rank3 for Tucker decomposition is:  2  obtained by Variational Bayes Matrix Factorization
+2
+2021-02-24 12:58:21.526159
+HSI= indianPines
+SNR= -10dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 226, in EVBMF
+    sigma2_opt = minimize_scalar(EVBsigma2, args=(L,M,s,residual,xubar), bounds=[lower_bound, upper_bound], method='Bounded')
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/scipy/optimize/_minimize.py", line 790, in minimize_scalar
+    return _minimize_scalar_bounded(fun, bounds, args, **options)
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/scipy/optimize/optimize.py", line 1782, in _minimize_scalar_bounded
+    raise ValueError("The lower bound exceeds the upper bound.")
+ValueError: The lower bound exceeds the upper bound.
+srun: error: cinv01: task 0: Exited with exit code 1
+2021-02-24 12:58:42.929219
+HSI= indianPines
+SNR= -15dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 226, in EVBMF
+    sigma2_opt = minimize_scalar(EVBsigma2, args=(L,M,s,residual,xubar), bounds=[lower_bound, upper_bound], method='Bounded')
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/scipy/optimize/_minimize.py", line 790, in minimize_scalar
+    return _minimize_scalar_bounded(fun, bounds, args, **options)
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/scipy/optimize/optimize.py", line 1782, in _minimize_scalar_bounded
+    raise ValueError("The lower bound exceeds the upper bound.")
+ValueError: The lower bound exceeds the upper bound.
+srun: error: cinv01: task 0: Exited with exit code 1
+2021-02-24 12:59:04.272325
+HSI= indianPines
+SNR= -20dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 226, in EVBMF
+    sigma2_opt = minimize_scalar(EVBsigma2, args=(L,M,s,residual,xubar), bounds=[lower_bound, upper_bound], method='Bounded')
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/scipy/optimize/_minimize.py", line 790, in minimize_scalar
+    return _minimize_scalar_bounded(fun, bounds, args, **options)
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/scipy/optimize/optimize.py", line 1782, in _minimize_scalar_bounded
+    raise ValueError("The lower bound exceeds the upper bound.")
+ValueError: The lower bound exceeds the upper bound.
+srun: error: cinv01: task 0: Exited with exit code 1
+2021-02-24 12:59:25.338490
+HSI= paviaU
+SNR= 60dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 203, in EVBMF
+    U,s,V = np.linalg.svd(Y)
+  File "<__array_function__ internals>", line 6, in svd
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/numpy/linalg/linalg.py", line 1661, in svd
+    u, s, vh = gufunc(a, signature=signature, extobj=extobj)
+numpy.core._exceptions.MemoryError: Unable to allocate 320. GiB for an array with shape (207400, 207400) and data type float64
+srun: error: cinv01: task 0: Exited with exit code 1
+2021-02-24 12:59:27.536869
+HSI= paviaU
+SNR= 55dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 203, in EVBMF
+    U,s,V = np.linalg.svd(Y)
+  File "<__array_function__ internals>", line 6, in svd
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/numpy/linalg/linalg.py", line 1661, in svd
+    u, s, vh = gufunc(a, signature=signature, extobj=extobj)
+numpy.core._exceptions.MemoryError: Unable to allocate 320. GiB for an array with shape (207400, 207400) and data type float64
+srun: error: cinv01: task 0: Exited with exit code 1
+2021-02-24 12:59:29.718247
+HSI= paviaU
+SNR= 50dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 203, in EVBMF
+    U,s,V = np.linalg.svd(Y)
+  File "<__array_function__ internals>", line 6, in svd
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/numpy/linalg/linalg.py", line 1661, in svd
+    u, s, vh = gufunc(a, signature=signature, extobj=extobj)
+numpy.core._exceptions.MemoryError: Unable to allocate 320. GiB for an array with shape (207400, 207400) and data type float64
+srun: error: cinv01: task 0: Exited with exit code 1
+2021-02-24 12:59:31.925421
+HSI= paviaU
+SNR= 45dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 203, in EVBMF
+    U,s,V = np.linalg.svd(Y)
+  File "<__array_function__ internals>", line 6, in svd
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/numpy/linalg/linalg.py", line 1661, in svd
+    u, s, vh = gufunc(a, signature=signature, extobj=extobj)
+numpy.core._exceptions.MemoryError: Unable to allocate 320. GiB for an array with shape (207400, 207400) and data type float64
+srun: error: cinv01: task 0: Exited with exit code 1
+2021-02-24 12:59:34.109848
+HSI= paviaU
+SNR= 40dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 203, in EVBMF
+    U,s,V = np.linalg.svd(Y)
+  File "<__array_function__ internals>", line 6, in svd
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/numpy/linalg/linalg.py", line 1661, in svd
+    u, s, vh = gufunc(a, signature=signature, extobj=extobj)
+numpy.core._exceptions.MemoryError: Unable to allocate 320. GiB for an array with shape (207400, 207400) and data type float64
+srun: error: cinv01: task 0: Exited with exit code 1
+2021-02-24 12:59:36.247629
+HSI= paviaU
+SNR= 35dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 203, in EVBMF
+    U,s,V = np.linalg.svd(Y)
+  File "<__array_function__ internals>", line 6, in svd
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/numpy/linalg/linalg.py", line 1661, in svd
+    u, s, vh = gufunc(a, signature=signature, extobj=extobj)
+numpy.core._exceptions.MemoryError: Unable to allocate 320. GiB for an array with shape (207400, 207400) and data type float64
+srun: error: cinv01: task 0: Exited with exit code 1
+2021-02-24 12:59:38.439214
+HSI= paviaU
+SNR= 30dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 203, in EVBMF
+    U,s,V = np.linalg.svd(Y)
+  File "<__array_function__ internals>", line 6, in svd
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/numpy/linalg/linalg.py", line 1661, in svd
+    u, s, vh = gufunc(a, signature=signature, extobj=extobj)
+numpy.core._exceptions.MemoryError: Unable to allocate 320. GiB for an array with shape (207400, 207400) and data type float64
+srun: error: cinv01: task 0: Exited with exit code 1
+2021-02-24 12:59:40.613854
+HSI= paviaU
+SNR= 25dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 203, in EVBMF
+    U,s,V = np.linalg.svd(Y)
+  File "<__array_function__ internals>", line 6, in svd
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/numpy/linalg/linalg.py", line 1661, in svd
+    u, s, vh = gufunc(a, signature=signature, extobj=extobj)
+numpy.core._exceptions.MemoryError: Unable to allocate 320. GiB for an array with shape (207400, 207400) and data type float64
+srun: error: cinv01: task 0: Exited with exit code 1
+2021-02-24 12:59:42.811906
+HSI= paviaU
+SNR= 20dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 203, in EVBMF
+    U,s,V = np.linalg.svd(Y)
+  File "<__array_function__ internals>", line 6, in svd
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/numpy/linalg/linalg.py", line 1661, in svd
+    u, s, vh = gufunc(a, signature=signature, extobj=extobj)
+numpy.core._exceptions.MemoryError: Unable to allocate 320. GiB for an array with shape (207400, 207400) and data type float64
+srun: error: cinv01: task 0: Exited with exit code 1
+2021-02-24 12:59:45.037821
+HSI= paviaU
+SNR= 15dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 203, in EVBMF
+    U,s,V = np.linalg.svd(Y)
+  File "<__array_function__ internals>", line 6, in svd
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/numpy/linalg/linalg.py", line 1661, in svd
+    u, s, vh = gufunc(a, signature=signature, extobj=extobj)
+numpy.core._exceptions.MemoryError: Unable to allocate 320. GiB for an array with shape (207400, 207400) and data type float64
+srun: error: cinv01: task 0: Exited with exit code 1
+2021-02-24 12:59:47.265250
+HSI= paviaU
+SNR= 10dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 203, in EVBMF
+    U,s,V = np.linalg.svd(Y)
+  File "<__array_function__ internals>", line 6, in svd
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/numpy/linalg/linalg.py", line 1661, in svd
+    u, s, vh = gufunc(a, signature=signature, extobj=extobj)
+numpy.core._exceptions.MemoryError: Unable to allocate 320. GiB for an array with shape (207400, 207400) and data type float64
+srun: error: cinv01: task 0: Exited with exit code 1
+2021-02-24 12:59:49.436610
+HSI= paviaU
+SNR= 5dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 203, in EVBMF
+    U,s,V = np.linalg.svd(Y)
+  File "<__array_function__ internals>", line 6, in svd
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/numpy/linalg/linalg.py", line 1661, in svd
+    u, s, vh = gufunc(a, signature=signature, extobj=extobj)
+numpy.core._exceptions.MemoryError: Unable to allocate 320. GiB for an array with shape (207400, 207400) and data type float64
+srun: error: cinv01: task 0: Exited with exit code 1
+2021-02-24 12:59:51.613077
+HSI= paviaU
+SNR= 0dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 203, in EVBMF
+    U,s,V = np.linalg.svd(Y)
+  File "<__array_function__ internals>", line 6, in svd
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/numpy/linalg/linalg.py", line 1661, in svd
+    u, s, vh = gufunc(a, signature=signature, extobj=extobj)
+numpy.core._exceptions.MemoryError: Unable to allocate 320. GiB for an array with shape (207400, 207400) and data type float64
+srun: error: cinv01: task 0: Exited with exit code 1
+2021-02-24 12:59:53.802906
+HSI= paviaU
+SNR= -5dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 203, in EVBMF
+    U,s,V = np.linalg.svd(Y)
+  File "<__array_function__ internals>", line 6, in svd
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/numpy/linalg/linalg.py", line 1661, in svd
+    u, s, vh = gufunc(a, signature=signature, extobj=extobj)
+numpy.core._exceptions.MemoryError: Unable to allocate 320. GiB for an array with shape (207400, 207400) and data type float64
+srun: error: cinv01: task 0: Exited with exit code 1
+2021-02-24 12:59:56.048957
+HSI= paviaU
+SNR= -10dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 203, in EVBMF
+    U,s,V = np.linalg.svd(Y)
+  File "<__array_function__ internals>", line 6, in svd
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/numpy/linalg/linalg.py", line 1661, in svd
+    u, s, vh = gufunc(a, signature=signature, extobj=extobj)
+numpy.core._exceptions.MemoryError: Unable to allocate 320. GiB for an array with shape (207400, 207400) and data type float64
+srun: error: cinv01: task 0: Exited with exit code 1
+2021-02-24 12:59:58.229039
+HSI= paviaU
+SNR= -15dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 203, in EVBMF
+    U,s,V = np.linalg.svd(Y)
+  File "<__array_function__ internals>", line 6, in svd
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/numpy/linalg/linalg.py", line 1661, in svd
+    u, s, vh = gufunc(a, signature=signature, extobj=extobj)
+numpy.core._exceptions.MemoryError: Unable to allocate 320. GiB for an array with shape (207400, 207400) and data type float64
+srun: error: cinv01: task 0: Exited with exit code 1
+2021-02-24 13:00:00.413695
+HSI= paviaU
+SNR= -20dB
+Alpha= alpha-1.0
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfAnalysis.py", line 50, in <module>
+    tensorial_bands = vbmfHSI.EVBMF(data.reshape(-1, data.shape[-1]))
+  File "/home/eapadilla/HSI_Class2021_Paper/vbmfHSI.py", line 203, in EVBMF
+    U,s,V = np.linalg.svd(Y)
+  File "<__array_function__ internals>", line 6, in svd
+  File "/home/eapadilla/.local/lib/python3.6/site-packages/numpy/linalg/linalg.py", line 1661, in svd
+    u, s, vh = gufunc(a, signature=signature, extobj=extobj)
+numpy.core._exceptions.MemoryError: Unable to allocate 320. GiB for an array with shape (207400, 207400) and data type float64
+srun: error: cinv01: task 0: Exited with exit code 1

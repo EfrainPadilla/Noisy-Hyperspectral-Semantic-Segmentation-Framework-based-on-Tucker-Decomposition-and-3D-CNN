@@ -1,0 +1,47 @@
+2021-08-31 18:00:28.183865
+SNR= 30dB
+Alpha= alpha-1.0
+---The HSI selected is: indianPines ---
+The shape of the image is: (145, 145, 200)
+The shape of the labels is: (145, 145)
+Number of classes:  16
+Standard Scaler preprocessing method applied
+The new dimensions for the compressed HSI is: (145, 145, 40) obtained by Tucker
+The data shape for train is: (1024, 40)
+The labels shape for train is: (1024,)
+The data shape for test is: (9225, 40)
+The labels shape for test is: (9225,)
+
+Terminado en 4.728661060333252 segundos!
+
+
+Trained!
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.50      0.02      0.05        41
+           1       0.63      0.70      0.66      1285
+           2       0.69      0.52      0.59       747
+           3       0.56      0.37      0.44       213
+           4       0.90      0.72      0.80       435
+           5       0.84      0.91      0.88       657
+           6       0.78      0.72      0.75        25
+           7       0.87      0.96      0.91       430
+           8       0.80      0.22      0.35        18
+           9       0.74      0.62      0.67       875
+          10       0.65      0.80      0.72      2210
+          11       0.51      0.28      0.36       534
+          12       0.87      0.98      0.92       185
+          13       0.86      0.96      0.91      1139
+          14       0.64      0.43      0.51       347
+          15       0.99      0.86      0.92        84
+
+    accuracy                           0.72      9225
+   macro avg       0.74      0.63      0.65      9225
+weighted avg       0.72      0.72      0.71      9225
+
+Accuracy Score: 0.7231436314363143
+Accuracy by each class: [0.024 0.704 0.519 0.366 0.717 0.913 0.72  0.956 0.222 0.618 0.802 0.279
+ 0.978 0.959 0.427 0.857]
+Average accuracy 0.6288694835692157
+Cohen’s kappa score:  0.6799274960683859

@@ -1,0 +1,47 @@
+2021-09-17 05:45:36.841328
+SNR= 0dB
+Alpha= alpha-1.0
+---The HSI selected is: salinas ---
+The shape of the image is: (512, 217, 204)
+The shape of the labels is: (512, 217)
+Number of classes:  16
+Standard Scaler preprocessing method applied
+The new dimensions for the compressed HSI is: (512, 217, 40) obtained by Tucker
+The data shape for train is: (1623, 40)
+The labels shape for train is: (1623,)
+The data shape for test is: (52506, 40)
+The labels shape for test is: (52506,)
+
+Terminado en 7.092953681945801 segundos!
+
+
+Trained!
+Classification report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98      1949
+           1       0.98      0.98      0.98      3614
+           2       0.83      0.83      0.83      1917
+           3       0.97      0.97      0.97      1352
+           4       0.93      0.96      0.94      2598
+           5       0.99      0.98      0.99      3840
+           6       0.99      0.97      0.98      3472
+           7       0.72      0.76      0.74     10933
+           8       0.98      0.96      0.97      6017
+           9       0.84      0.85      0.84      3180
+          10       0.82      0.85      0.83      1036
+          11       0.88      0.95      0.92      1869
+          12       0.92      0.97      0.94       888
+          13       0.93      0.89      0.91      1038
+          14       0.62      0.56      0.59      7050
+          15       0.91      0.96      0.93      1753
+
+    accuracy                           0.85     52506
+   macro avg       0.89      0.90      0.90     52506
+weighted avg       0.85      0.85      0.85     52506
+
+Accuracy Score: 0.8524549575286634
+Accuracy by each class: [0.968 0.98  0.826 0.972 0.957 0.984 0.97  0.756 0.965 0.848 0.847 0.955
+ 0.968 0.885 0.555 0.957]
+Average accuracy 0.8995568392586578
+Cohen’s kappa score:  0.8356286732372229

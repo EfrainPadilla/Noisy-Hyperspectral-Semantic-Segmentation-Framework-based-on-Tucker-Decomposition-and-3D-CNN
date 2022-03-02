@@ -1,0 +1,5 @@
+  File "/home/eapadilla/HSI_Class2021_Paper/hsi_tucker_classifier1dcnn_ep.py", line 131
+    clf.compile(loss=categorical_crossentropy, optimizer=Adam(), metrics=['accuracy']))
+                                                                                      ^
+SyntaxError: unmatched ')'
+srun: error: cinv01: task 0: Exited with exit code 1

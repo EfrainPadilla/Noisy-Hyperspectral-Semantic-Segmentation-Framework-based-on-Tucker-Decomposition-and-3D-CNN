@@ -1,0 +1,49 @@
+2021-09-01 17:18:34.807657
+SNR= 25dB
+Alpha= alpha-1.0
+---The HSI selected is: indianPines ---
+The shape of the image is: (145, 145, 200)
+The shape of the labels is: (145, 145)
+Number of classes:  16
+Standard Scaler preprocessing method applied
+The new dimensions for the compressed HSI is: (145, 145, 40) obtained by Tucker
+The data shape for train is: (512, 40)
+The labels shape for train is: (512,)
+The data shape for test is: (9737, 40)
+The labels shape for test is: (9737,)
+
+Terminado en 2.013180732727051 segundos!
+
+
+Trained!
+Classification report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.02      0.04        44
+           1       0.56      0.67      0.61      1357
+           2       0.60      0.39      0.47       789
+           3       0.43      0.18      0.26       225
+           4       0.71      0.63      0.67       459
+           5       0.74      0.91      0.81       693
+           6       0.00      0.00      0.00        27
+           7       0.79      0.93      0.85       454
+           8       0.00      0.00      0.00        19
+           9       0.59      0.58      0.59       923
+          10       0.61      0.74      0.67      2332
+          11       0.50      0.24      0.32       563
+          12       0.76      0.95      0.84       195
+          13       0.89      0.87      0.88      1202
+          14       0.42      0.26      0.32       367
+          15       0.95      0.84      0.89        88
+
+    accuracy                           0.66      9737
+   macro avg       0.60      0.51      0.51      9737
+weighted avg       0.64      0.66      0.64      9737
+
+Accuracy Score: 0.6558488240731232
+Accuracy by each class: [0.023 0.671 0.392 0.182 0.634 0.906 0.    0.925 0.    0.58  0.738 0.238
+ 0.949 0.867 0.256 0.841]
+Average accuracy 0.5125746215539019
+Cohen’s kappa score:  0.6024023250371274
+/home/eapadilla/anaconda3/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))

@@ -1,0 +1,5 @@
+  File "/home/eapadilla/HSI_Class2021_Paper/hsi_tucker_classifierRF_ep.py", line 106
+    """# **Classifier - RF**""""
+                               ^
+SyntaxError: EOL while scanning string literal
+srun: error: cinv01: task 0: Exited with exit code 1

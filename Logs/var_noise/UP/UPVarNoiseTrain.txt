@@ -1,0 +1,168 @@
+2022-02-18 09:39:55.431854
+The data shape for train is: (6416, 19, 19, 103)
+The labels shape for train is: (6416,)
+The data shape for test is: (36360, 19, 19, 103)
+The labels shape for test is: (36360,)
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv3d (Conv3D)             (None, 15, 15, 80, 32)    19232     
+                                                                 
+ batch_normalization (BatchN  (None, 15, 15, 80, 32)   128       
+ ormalization)                                                   
+                                                                 
+ activation (Activation)     (None, 15, 15, 80, 32)    0         
+                                                                 
+ conv3d_1 (Conv3D)           (None, 11, 11, 65, 64)    819264    
+                                                                 
+ batch_normalization_1 (Batc  (None, 11, 11, 65, 64)   256       
+ hNormalization)                                                 
+                                                                 
+ activation_1 (Activation)   (None, 11, 11, 65, 64)    0         
+                                                                 
+ max_pooling3d (MaxPooling3D  (None, 5, 5, 65, 64)     0         
+ )                                                               
+                                                                 
+ flatten (Flatten)           (None, 104000)            0         
+                                                                 
+ dense (Dense)               (None, 300)               31200300  
+                                                                 
+ batch_normalization_2 (Batc  (None, 300)              1200      
+ hNormalization)                                                 
+                                                                 
+ activation_2 (Activation)   (None, 300)               0         
+                                                                 
+ dense_1 (Dense)             (None, 9)                 2709      
+                                                                 
+=================================================================
+Total params: 32,043,089
+Trainable params: 32,042,297
+Non-trainable params: 792
+_________________________________________________________________
+Epoch 1/40
+
+Epoch 1: val_accuracy improved from -inf to 0.49205, saving model to /tmp/best_model.h5
+Epoch 2/40
+
+Epoch 2: val_accuracy improved from 0.49205 to 0.68127, saving model to /tmp/best_model.h5
+Epoch 3/40
+
+Epoch 3: val_accuracy improved from 0.68127 to 0.90138, saving model to /tmp/best_model.h5
+Epoch 4/40
+
+Epoch 4: val_accuracy improved from 0.90138 to 0.97731, saving model to /tmp/best_model.h5
+Epoch 5/40
+
+Epoch 5: val_accuracy improved from 0.97731 to 0.98078, saving model to /tmp/best_model.h5
+Epoch 6/40
+
+Epoch 6: val_accuracy improved from 0.98078 to 0.99013, saving model to /tmp/best_model.h5
+Epoch 7/40
+
+Epoch 7: val_accuracy did not improve from 0.99013
+Epoch 8/40
+
+Epoch 8: val_accuracy improved from 0.99013 to 0.99310, saving model to /tmp/best_model.h5
+Epoch 9/40
+
+Epoch 9: val_accuracy improved from 0.99310 to 0.99392, saving model to /tmp/best_model.h5
+Epoch 10/40
+
+Epoch 10: val_accuracy improved from 0.99392 to 0.99645, saving model to /tmp/best_model.h5
+Epoch 11/40
+
+Epoch 11: val_accuracy did not improve from 0.99645
+Epoch 12/40
+
+Epoch 12: val_accuracy did not improve from 0.99645
+Epoch 13/40
+
+Epoch 13: val_accuracy improved from 0.99645 to 0.99664, saving model to /tmp/best_model.h5
+Epoch 14/40
+
+Epoch 14: val_accuracy improved from 0.99664 to 0.99670, saving model to /tmp/best_model.h5
+Epoch 15/40
+
+Epoch 15: val_accuracy did not improve from 0.99670
+Epoch 16/40
+
+Epoch 16: val_accuracy did not improve from 0.99670
+Epoch 17/40
+
+Epoch 17: val_accuracy did not improve from 0.99670
+Epoch 18/40
+
+Epoch 18: val_accuracy did not improve from 0.99670
+Epoch 19/40
+
+Epoch 19: val_accuracy did not improve from 0.99670
+Epoch 20/40
+
+Epoch 20: val_accuracy improved from 0.99670 to 0.99730, saving model to /tmp/best_model.h5
+Epoch 21/40
+
+Epoch 21: val_accuracy improved from 0.99730 to 0.99857, saving model to /tmp/best_model.h5
+Epoch 22/40
+
+Epoch 22: val_accuracy did not improve from 0.99857
+Epoch 23/40
+
+Epoch 23: val_accuracy improved from 0.99857 to 0.99873, saving model to /tmp/best_model.h5
+Epoch 24/40
+
+Epoch 24: val_accuracy did not improve from 0.99873
+Epoch 25/40
+
+Epoch 25: val_accuracy did not improve from 0.99873
+Epoch 26/40
+
+Epoch 26: val_accuracy did not improve from 0.99873
+Epoch 27/40
+
+Epoch 27: val_accuracy did not improve from 0.99873
+Epoch 28/40
+
+Epoch 28: val_accuracy did not improve from 0.99873
+Epoch 29/40
+
+Epoch 29: val_accuracy did not improve from 0.99873
+Epoch 30/40
+
+Epoch 30: val_accuracy did not improve from 0.99873
+Epoch 31/40
+
+Epoch 31: val_accuracy did not improve from 0.99873
+Epoch 32/40
+
+Epoch 32: val_accuracy did not improve from 0.99873
+Epoch 33/40
+
+Epoch 33: val_accuracy improved from 0.99873 to 0.99890, saving model to /tmp/best_model.h5
+Epoch 34/40
+
+Epoch 34: val_accuracy did not improve from 0.99890
+Epoch 35/40
+
+Epoch 35: val_accuracy did not improve from 0.99890
+Epoch 36/40
+
+Epoch 36: val_accuracy did not improve from 0.99890
+Epoch 37/40
+
+Epoch 37: val_accuracy did not improve from 0.99890
+Epoch 38/40
+
+Epoch 38: val_accuracy did not improve from 0.99890
+Epoch 39/40
+
+Epoch 39: val_accuracy did not improve from 0.99890
+Epoch 40/40
+
+Epoch 40: val_accuracy did not improve from 0.99890
+2022-02-18 10:30:51.819517: W tensorflow/python/util/util.cc:368] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+PARAMETERS 32043089
+
+Terminado en 3010.1510190963745 segundos!
+
+

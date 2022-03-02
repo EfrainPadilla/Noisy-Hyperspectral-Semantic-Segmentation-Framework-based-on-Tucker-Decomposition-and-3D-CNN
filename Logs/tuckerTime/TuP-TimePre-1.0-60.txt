@@ -1,0 +1,26 @@
+2021-08-31 02:45:32.678612
+SNR= 60dB
+Alpha= alpha-1.0
+---The HSI selected is: paviaU ---
+The shape of the image is: (610, 340, 103)
+The shape of the labels is: (610, 340)
+Number of classes:  9
+Standard Scaler preprocessing method applied
+
+Tucker finished in 16.83830499649048 seconds!
+
+
+The old dimensions of the compressed HSI is: (610, 340, 103) obtained by Tucker
+The new dimensions for the compressed HSI is: (610, 340, 40) obtained by Tucker
+The new shape of the data is:  (207400, 19, 19, 103)
+The new shape of the labels is:  (207400,)
+
+Cubes of original data created in 28.010878801345825 seconds!
+
+
+The new shape of the data is:  (207400, 19, 19, 40)
+The new shape of the labels is:  (207400,)
+
+Cubes of compressed data created in 18.516459465026855 seconds!
+
+

@@ -1,0 +1,967 @@
+2021-09-17 12:56:30.270975
+SNR= -15dB
+Alpha= alpha-1.0
+---The HSI selected is: paviaU ---
+The shape of the image is: (610, 340, 103)
+The shape of the labels is: (610, 340)
+Number of classes:  9
+Standard Scaler preprocessing method applied
+The new dimensions for the compressed HSI is: (610, 340, 40) obtained by Tucker
+The new shape of the data is:  (207400, 19, 19, 40)
+The new shape of the labels is:  (207400,)
+The data shape for train is: (1283, 19, 19, 40)
+The labels shape for train is: (1283,)
+The data shape for test is: (41493, 19, 19, 40)
+The labels shape for test is: (41493,)
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv2d (Conv2D)              (None, 15, 15, 50)        50050     
+_________________________________________________________________
+activation (Activation)      (None, 15, 15, 50)        0         
+_________________________________________________________________
+conv2d_1 (Conv2D)            (None, 11, 11, 100)       125100    
+_________________________________________________________________
+activation_1 (Activation)    (None, 11, 11, 100)       0         
+_________________________________________________________________
+max_pooling2d (MaxPooling2D) (None, 5, 5, 100)         0         
+_________________________________________________________________
+flatten (Flatten)            (None, 2500)              0         
+_________________________________________________________________
+dense (Dense)                (None, 100)               250100    
+_________________________________________________________________
+activation_2 (Activation)    (None, 100)               0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 9)                 909       
+=================================================================
+Total params: 426,159
+Trainable params: 426,159
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/300
+
+Epoch 00001: val_accuracy improved from -inf to 0.63387, saving model to /tmp/best_model.h5
+Epoch 2/300
+
+Epoch 00002: val_accuracy improved from 0.63387 to 0.79013, saving model to /tmp/best_model.h5
+Epoch 3/300
+
+Epoch 00003: val_accuracy improved from 0.79013 to 0.83238, saving model to /tmp/best_model.h5
+Epoch 4/300
+
+Epoch 00004: val_accuracy improved from 0.83238 to 0.86347, saving model to /tmp/best_model.h5
+Epoch 5/300
+
+Epoch 00005: val_accuracy improved from 0.86347 to 0.88716, saving model to /tmp/best_model.h5
+Epoch 6/300
+
+Epoch 00006: val_accuracy improved from 0.88716 to 0.89697, saving model to /tmp/best_model.h5
+Epoch 7/300
+
+Epoch 00007: val_accuracy improved from 0.89697 to 0.91955, saving model to /tmp/best_model.h5
+Epoch 8/300
+
+Epoch 00008: val_accuracy improved from 0.91955 to 0.94040, saving model to /tmp/best_model.h5
+Epoch 9/300
+
+Epoch 00009: val_accuracy improved from 0.94040 to 0.94534, saving model to /tmp/best_model.h5
+Epoch 10/300
+
+Epoch 00010: val_accuracy improved from 0.94534 to 0.95132, saving model to /tmp/best_model.h5
+Epoch 11/300
+
+Epoch 00011: val_accuracy did not improve from 0.95132
+Epoch 12/300
+
+Epoch 00012: val_accuracy improved from 0.95132 to 0.95508, saving model to /tmp/best_model.h5
+Epoch 13/300
+
+Epoch 00013: val_accuracy did not improve from 0.95508
+Epoch 14/300
+
+Epoch 00014: val_accuracy improved from 0.95508 to 0.95749, saving model to /tmp/best_model.h5
+Epoch 15/300
+
+Epoch 00015: val_accuracy improved from 0.95749 to 0.95860, saving model to /tmp/best_model.h5
+Epoch 16/300
+
+Epoch 00016: val_accuracy improved from 0.95860 to 0.95869, saving model to /tmp/best_model.h5
+Epoch 17/300
+
+Epoch 00017: val_accuracy improved from 0.95869 to 0.95932, saving model to /tmp/best_model.h5
+Epoch 18/300
+
+Epoch 00018: val_accuracy improved from 0.95932 to 0.96045, saving model to /tmp/best_model.h5
+Epoch 19/300
+
+Epoch 00019: val_accuracy did not improve from 0.96045
+Epoch 20/300
+
+Epoch 00020: val_accuracy did not improve from 0.96045
+Epoch 21/300
+
+Epoch 00021: val_accuracy improved from 0.96045 to 0.96081, saving model to /tmp/best_model.h5
+Epoch 22/300
+
+Epoch 00022: val_accuracy improved from 0.96081 to 0.96146, saving model to /tmp/best_model.h5
+Epoch 23/300
+
+Epoch 00023: val_accuracy did not improve from 0.96146
+Epoch 24/300
+
+Epoch 00024: val_accuracy improved from 0.96146 to 0.96197, saving model to /tmp/best_model.h5
+Epoch 25/300
+
+Epoch 00025: val_accuracy improved from 0.96197 to 0.96204, saving model to /tmp/best_model.h5
+Epoch 26/300
+
+Epoch 00026: val_accuracy improved from 0.96204 to 0.96238, saving model to /tmp/best_model.h5
+Epoch 27/300
+
+Epoch 00027: val_accuracy improved from 0.96238 to 0.96267, saving model to /tmp/best_model.h5
+Epoch 28/300
+
+Epoch 00028: val_accuracy did not improve from 0.96267
+Epoch 29/300
+
+Epoch 00029: val_accuracy improved from 0.96267 to 0.96274, saving model to /tmp/best_model.h5
+Epoch 30/300
+
+Epoch 00030: val_accuracy improved from 0.96274 to 0.96296, saving model to /tmp/best_model.h5
+Epoch 31/300
+
+Epoch 00031: val_accuracy improved from 0.96296 to 0.96313, saving model to /tmp/best_model.h5
+Epoch 32/300
+
+Epoch 00032: val_accuracy improved from 0.96313 to 0.96320, saving model to /tmp/best_model.h5
+Epoch 33/300
+
+Epoch 00033: val_accuracy improved from 0.96320 to 0.96339, saving model to /tmp/best_model.h5
+Epoch 34/300
+
+Epoch 00034: val_accuracy improved from 0.96339 to 0.96342, saving model to /tmp/best_model.h5
+Epoch 35/300
+
+Epoch 00035: val_accuracy improved from 0.96342 to 0.96370, saving model to /tmp/best_model.h5
+Epoch 36/300
+
+Epoch 00036: val_accuracy improved from 0.96370 to 0.96373, saving model to /tmp/best_model.h5
+Epoch 37/300
+
+Epoch 00037: val_accuracy improved from 0.96373 to 0.96390, saving model to /tmp/best_model.h5
+Epoch 38/300
+
+Epoch 00038: val_accuracy improved from 0.96390 to 0.96426, saving model to /tmp/best_model.h5
+Epoch 39/300
+
+Epoch 00039: val_accuracy did not improve from 0.96426
+Epoch 40/300
+
+Epoch 00040: val_accuracy improved from 0.96426 to 0.96433, saving model to /tmp/best_model.h5
+Epoch 41/300
+
+Epoch 00041: val_accuracy improved from 0.96433 to 0.96450, saving model to /tmp/best_model.h5
+Epoch 42/300
+
+Epoch 00042: val_accuracy improved from 0.96450 to 0.96455, saving model to /tmp/best_model.h5
+Epoch 43/300
+
+Epoch 00043: val_accuracy improved from 0.96455 to 0.96467, saving model to /tmp/best_model.h5
+Epoch 44/300
+
+Epoch 00044: val_accuracy improved from 0.96467 to 0.96469, saving model to /tmp/best_model.h5
+Epoch 45/300
+
+Epoch 00045: val_accuracy did not improve from 0.96469
+Epoch 46/300
+
+Epoch 00046: val_accuracy improved from 0.96469 to 0.96481, saving model to /tmp/best_model.h5
+Epoch 47/300
+
+Epoch 00047: val_accuracy did not improve from 0.96481
+Epoch 48/300
+
+Epoch 00048: val_accuracy improved from 0.96481 to 0.96498, saving model to /tmp/best_model.h5
+Epoch 49/300
+
+Epoch 00049: val_accuracy did not improve from 0.96498
+Epoch 50/300
+
+Epoch 00050: val_accuracy did not improve from 0.96498
+Epoch 51/300
+
+Epoch 00051: val_accuracy improved from 0.96498 to 0.96520, saving model to /tmp/best_model.h5
+Epoch 52/300
+
+Epoch 00052: val_accuracy did not improve from 0.96520
+Epoch 53/300
+
+Epoch 00053: val_accuracy did not improve from 0.96520
+Epoch 54/300
+
+Epoch 00054: val_accuracy did not improve from 0.96520
+Epoch 55/300
+
+Epoch 00055: val_accuracy improved from 0.96520 to 0.96530, saving model to /tmp/best_model.h5
+Epoch 56/300
+
+Epoch 00056: val_accuracy improved from 0.96530 to 0.96539, saving model to /tmp/best_model.h5
+Epoch 57/300
+
+Epoch 00057: val_accuracy improved from 0.96539 to 0.96544, saving model to /tmp/best_model.h5
+Epoch 58/300
+
+Epoch 00058: val_accuracy improved from 0.96544 to 0.96551, saving model to /tmp/best_model.h5
+Epoch 59/300
+
+Epoch 00059: val_accuracy improved from 0.96551 to 0.96568, saving model to /tmp/best_model.h5
+Epoch 60/300
+
+Epoch 00060: val_accuracy did not improve from 0.96568
+Epoch 61/300
+
+Epoch 00061: val_accuracy improved from 0.96568 to 0.96571, saving model to /tmp/best_model.h5
+Epoch 62/300
+
+Epoch 00062: val_accuracy improved from 0.96571 to 0.96580, saving model to /tmp/best_model.h5
+Epoch 63/300
+
+Epoch 00063: val_accuracy did not improve from 0.96580
+Epoch 64/300
+
+Epoch 00064: val_accuracy improved from 0.96580 to 0.96604, saving model to /tmp/best_model.h5
+Epoch 65/300
+
+Epoch 00065: val_accuracy did not improve from 0.96604
+Epoch 66/300
+
+Epoch 00066: val_accuracy did not improve from 0.96604
+Epoch 67/300
+
+Epoch 00067: val_accuracy did not improve from 0.96604
+Epoch 68/300
+
+Epoch 00068: val_accuracy improved from 0.96604 to 0.96626, saving model to /tmp/best_model.h5
+Epoch 69/300
+
+Epoch 00069: val_accuracy improved from 0.96626 to 0.96633, saving model to /tmp/best_model.h5
+Epoch 70/300
+
+Epoch 00070: val_accuracy did not improve from 0.96633
+Epoch 71/300
+
+Epoch 00071: val_accuracy did not improve from 0.96633
+Epoch 72/300
+
+Epoch 00072: val_accuracy did not improve from 0.96633
+Epoch 73/300
+
+Epoch 00073: val_accuracy improved from 0.96633 to 0.96650, saving model to /tmp/best_model.h5
+Epoch 74/300
+
+Epoch 00074: val_accuracy did not improve from 0.96650
+Epoch 75/300
+
+Epoch 00075: val_accuracy improved from 0.96650 to 0.96667, saving model to /tmp/best_model.h5
+Epoch 76/300
+
+Epoch 00076: val_accuracy did not improve from 0.96667
+Epoch 77/300
+
+Epoch 00077: val_accuracy did not improve from 0.96667
+Epoch 78/300
+
+Epoch 00078: val_accuracy improved from 0.96667 to 0.96677, saving model to /tmp/best_model.h5
+Epoch 79/300
+
+Epoch 00079: val_accuracy did not improve from 0.96677
+Epoch 80/300
+
+Epoch 00080: val_accuracy did not improve from 0.96677
+Epoch 81/300
+
+Epoch 00081: val_accuracy improved from 0.96677 to 0.96684, saving model to /tmp/best_model.h5
+Epoch 82/300
+
+Epoch 00082: val_accuracy did not improve from 0.96684
+Epoch 83/300
+
+Epoch 00083: val_accuracy improved from 0.96684 to 0.96689, saving model to /tmp/best_model.h5
+Epoch 84/300
+
+Epoch 00084: val_accuracy improved from 0.96689 to 0.96693, saving model to /tmp/best_model.h5
+Epoch 85/300
+
+Epoch 00085: val_accuracy improved from 0.96693 to 0.96698, saving model to /tmp/best_model.h5
+Epoch 86/300
+
+Epoch 00086: val_accuracy did not improve from 0.96698
+Epoch 87/300
+
+Epoch 00087: val_accuracy improved from 0.96698 to 0.96710, saving model to /tmp/best_model.h5
+Epoch 88/300
+
+Epoch 00088: val_accuracy did not improve from 0.96710
+Epoch 89/300
+
+Epoch 00089: val_accuracy did not improve from 0.96710
+Epoch 90/300
+
+Epoch 00090: val_accuracy did not improve from 0.96710
+Epoch 91/300
+
+Epoch 00091: val_accuracy improved from 0.96710 to 0.96725, saving model to /tmp/best_model.h5
+Epoch 92/300
+
+Epoch 00092: val_accuracy did not improve from 0.96725
+Epoch 93/300
+
+Epoch 00093: val_accuracy did not improve from 0.96725
+Epoch 94/300
+
+Epoch 00094: val_accuracy improved from 0.96725 to 0.96734, saving model to /tmp/best_model.h5
+Epoch 95/300
+
+Epoch 00095: val_accuracy did not improve from 0.96734
+Epoch 96/300
+
+Epoch 00096: val_accuracy did not improve from 0.96734
+Epoch 97/300
+
+Epoch 00097: val_accuracy did not improve from 0.96734
+Epoch 98/300
+
+Epoch 00098: val_accuracy did not improve from 0.96734
+Epoch 99/300
+
+Epoch 00099: val_accuracy did not improve from 0.96734
+Epoch 100/300
+
+Epoch 00100: val_accuracy did not improve from 0.96734
+Epoch 101/300
+
+Epoch 00101: val_accuracy improved from 0.96734 to 0.96737, saving model to /tmp/best_model.h5
+Epoch 102/300
+
+Epoch 00102: val_accuracy improved from 0.96737 to 0.96746, saving model to /tmp/best_model.h5
+Epoch 103/300
+
+Epoch 00103: val_accuracy did not improve from 0.96746
+Epoch 104/300
+
+Epoch 00104: val_accuracy improved from 0.96746 to 0.96758, saving model to /tmp/best_model.h5
+Epoch 105/300
+
+Epoch 00105: val_accuracy did not improve from 0.96758
+Epoch 106/300
+
+Epoch 00106: val_accuracy did not improve from 0.96758
+Epoch 107/300
+
+Epoch 00107: val_accuracy did not improve from 0.96758
+Epoch 108/300
+
+Epoch 00108: val_accuracy improved from 0.96758 to 0.96761, saving model to /tmp/best_model.h5
+Epoch 109/300
+
+Epoch 00109: val_accuracy did not improve from 0.96761
+Epoch 110/300
+
+Epoch 00110: val_accuracy improved from 0.96761 to 0.96768, saving model to /tmp/best_model.h5
+Epoch 111/300
+
+Epoch 00111: val_accuracy improved from 0.96768 to 0.96778, saving model to /tmp/best_model.h5
+Epoch 112/300
+
+Epoch 00112: val_accuracy did not improve from 0.96778
+Epoch 113/300
+
+Epoch 00113: val_accuracy did not improve from 0.96778
+Epoch 114/300
+
+Epoch 00114: val_accuracy improved from 0.96778 to 0.96783, saving model to /tmp/best_model.h5
+Epoch 115/300
+
+Epoch 00115: val_accuracy did not improve from 0.96783
+Epoch 116/300
+
+Epoch 00116: val_accuracy did not improve from 0.96783
+Epoch 117/300
+
+Epoch 00117: val_accuracy improved from 0.96783 to 0.96790, saving model to /tmp/best_model.h5
+Epoch 118/300
+
+Epoch 00118: val_accuracy improved from 0.96790 to 0.96795, saving model to /tmp/best_model.h5
+Epoch 119/300
+
+Epoch 00119: val_accuracy did not improve from 0.96795
+Epoch 120/300
+
+Epoch 00120: val_accuracy improved from 0.96795 to 0.96799, saving model to /tmp/best_model.h5
+Epoch 121/300
+
+Epoch 00121: val_accuracy did not improve from 0.96799
+Epoch 122/300
+
+Epoch 00122: val_accuracy did not improve from 0.96799
+Epoch 123/300
+
+Epoch 00123: val_accuracy improved from 0.96799 to 0.96804, saving model to /tmp/best_model.h5
+Epoch 124/300
+
+Epoch 00124: val_accuracy improved from 0.96804 to 0.96809, saving model to /tmp/best_model.h5
+Epoch 125/300
+
+Epoch 00125: val_accuracy did not improve from 0.96809
+Epoch 126/300
+
+Epoch 00126: val_accuracy improved from 0.96809 to 0.96819, saving model to /tmp/best_model.h5
+Epoch 127/300
+
+Epoch 00127: val_accuracy did not improve from 0.96819
+Epoch 128/300
+
+Epoch 00128: val_accuracy improved from 0.96819 to 0.96826, saving model to /tmp/best_model.h5
+Epoch 129/300
+
+Epoch 00129: val_accuracy did not improve from 0.96826
+Epoch 130/300
+
+Epoch 00130: val_accuracy did not improve from 0.96826
+Epoch 131/300
+
+Epoch 00131: val_accuracy did not improve from 0.96826
+Epoch 132/300
+
+Epoch 00132: val_accuracy improved from 0.96826 to 0.96828, saving model to /tmp/best_model.h5
+Epoch 133/300
+
+Epoch 00133: val_accuracy did not improve from 0.96828
+Epoch 134/300
+
+Epoch 00134: val_accuracy did not improve from 0.96828
+Epoch 135/300
+
+Epoch 00135: val_accuracy did not improve from 0.96828
+Epoch 136/300
+
+Epoch 00136: val_accuracy did not improve from 0.96828
+Epoch 137/300
+
+Epoch 00137: val_accuracy improved from 0.96828 to 0.96838, saving model to /tmp/best_model.h5
+Epoch 138/300
+
+Epoch 00138: val_accuracy did not improve from 0.96838
+Epoch 139/300
+
+Epoch 00139: val_accuracy improved from 0.96838 to 0.96840, saving model to /tmp/best_model.h5
+Epoch 140/300
+
+Epoch 00140: val_accuracy did not improve from 0.96840
+Epoch 141/300
+
+Epoch 00141: val_accuracy did not improve from 0.96840
+Epoch 142/300
+
+Epoch 00142: val_accuracy did not improve from 0.96840
+Epoch 143/300
+
+Epoch 00143: val_accuracy did not improve from 0.96840
+Epoch 144/300
+
+Epoch 00144: val_accuracy did not improve from 0.96840
+Epoch 145/300
+
+Epoch 00145: val_accuracy did not improve from 0.96840
+Epoch 146/300
+
+Epoch 00146: val_accuracy did not improve from 0.96840
+Epoch 147/300
+
+Epoch 00147: val_accuracy improved from 0.96840 to 0.96848, saving model to /tmp/best_model.h5
+Epoch 148/300
+
+Epoch 00148: val_accuracy improved from 0.96848 to 0.96860, saving model to /tmp/best_model.h5
+Epoch 149/300
+
+Epoch 00149: val_accuracy did not improve from 0.96860
+Epoch 150/300
+
+Epoch 00150: val_accuracy did not improve from 0.96860
+Epoch 151/300
+
+Epoch 00151: val_accuracy did not improve from 0.96860
+Epoch 152/300
+
+Epoch 00152: val_accuracy improved from 0.96860 to 0.96865, saving model to /tmp/best_model.h5
+Epoch 153/300
+
+Epoch 00153: val_accuracy improved from 0.96865 to 0.96874, saving model to /tmp/best_model.h5
+Epoch 154/300
+
+Epoch 00154: val_accuracy did not improve from 0.96874
+Epoch 155/300
+
+Epoch 00155: val_accuracy did not improve from 0.96874
+Epoch 156/300
+
+Epoch 00156: val_accuracy improved from 0.96874 to 0.96877, saving model to /tmp/best_model.h5
+Epoch 157/300
+
+Epoch 00157: val_accuracy improved from 0.96877 to 0.96879, saving model to /tmp/best_model.h5
+Epoch 158/300
+
+Epoch 00158: val_accuracy did not improve from 0.96879
+Epoch 159/300
+
+Epoch 00159: val_accuracy improved from 0.96879 to 0.96886, saving model to /tmp/best_model.h5
+Epoch 160/300
+
+Epoch 00160: val_accuracy did not improve from 0.96886
+Epoch 161/300
+
+Epoch 00161: val_accuracy did not improve from 0.96886
+Epoch 162/300
+
+Epoch 00162: val_accuracy improved from 0.96886 to 0.96891, saving model to /tmp/best_model.h5
+Epoch 163/300
+
+Epoch 00163: val_accuracy did not improve from 0.96891
+Epoch 164/300
+
+Epoch 00164: val_accuracy did not improve from 0.96891
+Epoch 165/300
+
+Epoch 00165: val_accuracy improved from 0.96891 to 0.96893, saving model to /tmp/best_model.h5
+Epoch 166/300
+
+Epoch 00166: val_accuracy did not improve from 0.96893
+Epoch 167/300
+
+Epoch 00167: val_accuracy improved from 0.96893 to 0.96898, saving model to /tmp/best_model.h5
+Epoch 168/300
+
+Epoch 00168: val_accuracy did not improve from 0.96898
+Epoch 169/300
+
+Epoch 00169: val_accuracy improved from 0.96898 to 0.96901, saving model to /tmp/best_model.h5
+Epoch 170/300
+
+Epoch 00170: val_accuracy did not improve from 0.96901
+Epoch 171/300
+
+Epoch 00171: val_accuracy improved from 0.96901 to 0.96915, saving model to /tmp/best_model.h5
+Epoch 172/300
+
+Epoch 00172: val_accuracy did not improve from 0.96915
+Epoch 173/300
+
+Epoch 00173: val_accuracy improved from 0.96915 to 0.96920, saving model to /tmp/best_model.h5
+Epoch 174/300
+
+Epoch 00174: val_accuracy did not improve from 0.96920
+Epoch 175/300
+
+Epoch 00175: val_accuracy did not improve from 0.96920
+Epoch 176/300
+
+Epoch 00176: val_accuracy improved from 0.96920 to 0.96922, saving model to /tmp/best_model.h5
+Epoch 177/300
+
+Epoch 00177: val_accuracy improved from 0.96922 to 0.96932, saving model to /tmp/best_model.h5
+Epoch 178/300
+
+Epoch 00178: val_accuracy did not improve from 0.96932
+Epoch 179/300
+
+Epoch 00179: val_accuracy did not improve from 0.96932
+Epoch 180/300
+
+Epoch 00180: val_accuracy did not improve from 0.96932
+Epoch 181/300
+
+Epoch 00181: val_accuracy did not improve from 0.96932
+Epoch 182/300
+
+Epoch 00182: val_accuracy improved from 0.96932 to 0.96939, saving model to /tmp/best_model.h5
+Epoch 183/300
+
+Epoch 00183: val_accuracy did not improve from 0.96939
+Epoch 184/300
+
+Epoch 00184: val_accuracy did not improve from 0.96939
+Epoch 185/300
+
+Epoch 00185: val_accuracy improved from 0.96939 to 0.96949, saving model to /tmp/best_model.h5
+Epoch 186/300
+
+Epoch 00186: val_accuracy did not improve from 0.96949
+Epoch 187/300
+
+Epoch 00187: val_accuracy did not improve from 0.96949
+Epoch 188/300
+
+Epoch 00188: val_accuracy improved from 0.96949 to 0.96959, saving model to /tmp/best_model.h5
+Epoch 189/300
+
+Epoch 00189: val_accuracy did not improve from 0.96959
+Epoch 190/300
+
+Epoch 00190: val_accuracy did not improve from 0.96959
+Epoch 191/300
+
+Epoch 00191: val_accuracy did not improve from 0.96959
+Epoch 192/300
+
+Epoch 00192: val_accuracy did not improve from 0.96959
+Epoch 193/300
+
+Epoch 00193: val_accuracy improved from 0.96959 to 0.96961, saving model to /tmp/best_model.h5
+Epoch 194/300
+
+Epoch 00194: val_accuracy improved from 0.96961 to 0.96963, saving model to /tmp/best_model.h5
+Epoch 195/300
+
+Epoch 00195: val_accuracy did not improve from 0.96963
+Epoch 196/300
+
+Epoch 00196: val_accuracy improved from 0.96963 to 0.96968, saving model to /tmp/best_model.h5
+Epoch 197/300
+
+Epoch 00197: val_accuracy did not improve from 0.96968
+Epoch 198/300
+
+Epoch 00198: val_accuracy improved from 0.96968 to 0.96971, saving model to /tmp/best_model.h5
+Epoch 199/300
+
+Epoch 00199: val_accuracy did not improve from 0.96971
+Epoch 200/300
+
+Epoch 00200: val_accuracy did not improve from 0.96971
+Epoch 201/300
+
+Epoch 00201: val_accuracy improved from 0.96971 to 0.96975, saving model to /tmp/best_model.h5
+Epoch 202/300
+
+Epoch 00202: val_accuracy did not improve from 0.96975
+Epoch 203/300
+
+Epoch 00203: val_accuracy did not improve from 0.96975
+Epoch 204/300
+
+Epoch 00204: val_accuracy did not improve from 0.96975
+Epoch 205/300
+
+Epoch 00205: val_accuracy did not improve from 0.96975
+Epoch 206/300
+
+Epoch 00206: val_accuracy improved from 0.96975 to 0.96980, saving model to /tmp/best_model.h5
+Epoch 207/300
+
+Epoch 00207: val_accuracy did not improve from 0.96980
+Epoch 208/300
+
+Epoch 00208: val_accuracy did not improve from 0.96980
+Epoch 209/300
+
+Epoch 00209: val_accuracy improved from 0.96980 to 0.96983, saving model to /tmp/best_model.h5
+Epoch 210/300
+
+Epoch 00210: val_accuracy improved from 0.96983 to 0.96992, saving model to /tmp/best_model.h5
+Epoch 211/300
+
+Epoch 00211: val_accuracy did not improve from 0.96992
+Epoch 212/300
+
+Epoch 00212: val_accuracy did not improve from 0.96992
+Epoch 213/300
+
+Epoch 00213: val_accuracy did not improve from 0.96992
+Epoch 214/300
+
+Epoch 00214: val_accuracy improved from 0.96992 to 0.96997, saving model to /tmp/best_model.h5
+Epoch 215/300
+
+Epoch 00215: val_accuracy did not improve from 0.96997
+Epoch 216/300
+
+Epoch 00216: val_accuracy improved from 0.96997 to 0.96999, saving model to /tmp/best_model.h5
+Epoch 217/300
+
+Epoch 00217: val_accuracy did not improve from 0.96999
+Epoch 218/300
+
+Epoch 00218: val_accuracy did not improve from 0.96999
+Epoch 219/300
+
+Epoch 00219: val_accuracy did not improve from 0.96999
+Epoch 220/300
+
+Epoch 00220: val_accuracy did not improve from 0.96999
+Epoch 221/300
+
+Epoch 00221: val_accuracy did not improve from 0.96999
+Epoch 222/300
+
+Epoch 00222: val_accuracy improved from 0.96999 to 0.97014, saving model to /tmp/best_model.h5
+Epoch 223/300
+
+Epoch 00223: val_accuracy improved from 0.97014 to 0.97016, saving model to /tmp/best_model.h5
+Epoch 224/300
+
+Epoch 00224: val_accuracy did not improve from 0.97016
+Epoch 225/300
+
+Epoch 00225: val_accuracy did not improve from 0.97016
+Epoch 226/300
+
+Epoch 00226: val_accuracy did not improve from 0.97016
+Epoch 227/300
+
+Epoch 00227: val_accuracy did not improve from 0.97016
+Epoch 228/300
+
+Epoch 00228: val_accuracy improved from 0.97016 to 0.97019, saving model to /tmp/best_model.h5
+Epoch 229/300
+
+Epoch 00229: val_accuracy did not improve from 0.97019
+Epoch 230/300
+
+Epoch 00230: val_accuracy did not improve from 0.97019
+Epoch 231/300
+
+Epoch 00231: val_accuracy improved from 0.97019 to 0.97026, saving model to /tmp/best_model.h5
+Epoch 232/300
+
+Epoch 00232: val_accuracy improved from 0.97026 to 0.97028, saving model to /tmp/best_model.h5
+Epoch 233/300
+
+Epoch 00233: val_accuracy did not improve from 0.97028
+Epoch 234/300
+
+Epoch 00234: val_accuracy did not improve from 0.97028
+Epoch 235/300
+
+Epoch 00235: val_accuracy did not improve from 0.97028
+Epoch 236/300
+
+Epoch 00236: val_accuracy did not improve from 0.97028
+Epoch 237/300
+
+Epoch 00237: val_accuracy improved from 0.97028 to 0.97040, saving model to /tmp/best_model.h5
+Epoch 238/300
+
+Epoch 00238: val_accuracy did not improve from 0.97040
+Epoch 239/300
+
+Epoch 00239: val_accuracy did not improve from 0.97040
+Epoch 240/300
+
+Epoch 00240: val_accuracy did not improve from 0.97040
+Epoch 241/300
+
+Epoch 00241: val_accuracy did not improve from 0.97040
+Epoch 242/300
+
+Epoch 00242: val_accuracy did not improve from 0.97040
+Epoch 243/300
+
+Epoch 00243: val_accuracy did not improve from 0.97040
+Epoch 244/300
+
+Epoch 00244: val_accuracy did not improve from 0.97040
+Epoch 245/300
+
+Epoch 00245: val_accuracy did not improve from 0.97040
+Epoch 246/300
+
+Epoch 00246: val_accuracy did not improve from 0.97040
+Epoch 247/300
+
+Epoch 00247: val_accuracy improved from 0.97040 to 0.97043, saving model to /tmp/best_model.h5
+Epoch 248/300
+
+Epoch 00248: val_accuracy improved from 0.97043 to 0.97045, saving model to /tmp/best_model.h5
+Epoch 249/300
+
+Epoch 00249: val_accuracy did not improve from 0.97045
+Epoch 250/300
+
+Epoch 00250: val_accuracy did not improve from 0.97045
+Epoch 251/300
+
+Epoch 00251: val_accuracy improved from 0.97045 to 0.97048, saving model to /tmp/best_model.h5
+Epoch 252/300
+
+Epoch 00252: val_accuracy did not improve from 0.97048
+Epoch 253/300
+
+Epoch 00253: val_accuracy did not improve from 0.97048
+Epoch 254/300
+
+Epoch 00254: val_accuracy did not improve from 0.97048
+Epoch 255/300
+
+Epoch 00255: val_accuracy did not improve from 0.97048
+Epoch 256/300
+
+Epoch 00256: val_accuracy improved from 0.97048 to 0.97053, saving model to /tmp/best_model.h5
+Epoch 257/300
+
+Epoch 00257: val_accuracy did not improve from 0.97053
+Epoch 258/300
+
+Epoch 00258: val_accuracy improved from 0.97053 to 0.97055, saving model to /tmp/best_model.h5
+Epoch 259/300
+
+Epoch 00259: val_accuracy did not improve from 0.97055
+Epoch 260/300
+
+Epoch 00260: val_accuracy improved from 0.97055 to 0.97057, saving model to /tmp/best_model.h5
+Epoch 261/300
+
+Epoch 00261: val_accuracy improved from 0.97057 to 0.97060, saving model to /tmp/best_model.h5
+Epoch 262/300
+
+Epoch 00262: val_accuracy did not improve from 0.97060
+Epoch 263/300
+
+Epoch 00263: val_accuracy did not improve from 0.97060
+Epoch 264/300
+
+Epoch 00264: val_accuracy did not improve from 0.97060
+Epoch 265/300
+
+Epoch 00265: val_accuracy improved from 0.97060 to 0.97062, saving model to /tmp/best_model.h5
+Epoch 266/300
+
+Epoch 00266: val_accuracy improved from 0.97062 to 0.97065, saving model to /tmp/best_model.h5
+Epoch 267/300
+
+Epoch 00267: val_accuracy did not improve from 0.97065
+Epoch 268/300
+
+Epoch 00268: val_accuracy did not improve from 0.97065
+Epoch 269/300
+
+Epoch 00269: val_accuracy improved from 0.97065 to 0.97072, saving model to /tmp/best_model.h5
+Epoch 270/300
+
+Epoch 00270: val_accuracy did not improve from 0.97072
+Epoch 271/300
+
+Epoch 00271: val_accuracy did not improve from 0.97072
+Epoch 272/300
+
+Epoch 00272: val_accuracy did not improve from 0.97072
+Epoch 273/300
+
+Epoch 00273: val_accuracy did not improve from 0.97072
+Epoch 274/300
+
+Epoch 00274: val_accuracy did not improve from 0.97072
+Epoch 275/300
+
+Epoch 00275: val_accuracy did not improve from 0.97072
+Epoch 276/300
+
+Epoch 00276: val_accuracy did not improve from 0.97072
+Epoch 277/300
+
+Epoch 00277: val_accuracy improved from 0.97072 to 0.97074, saving model to /tmp/best_model.h5
+Epoch 278/300
+
+Epoch 00278: val_accuracy did not improve from 0.97074
+Epoch 279/300
+
+Epoch 00279: val_accuracy did not improve from 0.97074
+Epoch 280/300
+
+Epoch 00280: val_accuracy did not improve from 0.97074
+Epoch 281/300
+
+Epoch 00281: val_accuracy did not improve from 0.97074
+Epoch 282/300
+
+Epoch 00282: val_accuracy did not improve from 0.97074
+Epoch 283/300
+
+Epoch 00283: val_accuracy improved from 0.97074 to 0.97077, saving model to /tmp/best_model.h5
+Epoch 284/300
+
+Epoch 00284: val_accuracy did not improve from 0.97077
+Epoch 285/300
+
+Epoch 00285: val_accuracy did not improve from 0.97077
+Epoch 286/300
+
+Epoch 00286: val_accuracy improved from 0.97077 to 0.97081, saving model to /tmp/best_model.h5
+Epoch 287/300
+
+Epoch 00287: val_accuracy did not improve from 0.97081
+Epoch 288/300
+
+Epoch 00288: val_accuracy did not improve from 0.97081
+Epoch 289/300
+
+Epoch 00289: val_accuracy did not improve from 0.97081
+Epoch 290/300
+
+Epoch 00290: val_accuracy did not improve from 0.97081
+Epoch 291/300
+
+Epoch 00291: val_accuracy did not improve from 0.97081
+Epoch 292/300
+
+Epoch 00292: val_accuracy did not improve from 0.97081
+Epoch 293/300
+
+Epoch 00293: val_accuracy improved from 0.97081 to 0.97086, saving model to /tmp/best_model.h5
+Epoch 294/300
+
+Epoch 00294: val_accuracy did not improve from 0.97086
+Epoch 295/300
+
+Epoch 00295: val_accuracy did not improve from 0.97086
+Epoch 296/300
+
+Epoch 00296: val_accuracy did not improve from 0.97086
+Epoch 297/300
+
+Epoch 00297: val_accuracy improved from 0.97086 to 0.97089, saving model to /tmp/best_model.h5
+Epoch 298/300
+
+Epoch 00298: val_accuracy did not improve from 0.97089
+Epoch 299/300
+
+Epoch 00299: val_accuracy did not improve from 0.97089
+Epoch 300/300
+
+Epoch 00300: val_accuracy did not improve from 0.97089
+PARAMETERS 426159
+
+Terminado en 663.5278224945068 segundos!
+
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.95      6432
+           1       0.99      1.00      1.00     18090
+           2       0.92      0.88      0.90      2036
+           3       0.99      0.95      0.97      2972
+           4       1.00      0.99      1.00      1305
+           5       0.99      0.99      0.99      4878
+           6       0.97      0.79      0.87      1290
+           7       0.90      0.94      0.92      3571
+           8       0.98      0.99      0.98       919
+
+    accuracy                           0.97     41493
+   macro avg       0.96      0.94      0.95     41493
+weighted avg       0.97      0.97      0.97     41493
+
+Accuracy Score: 0.9708866555804594
+Accuracy by each class: [0.967 0.998 0.875 0.953 0.995 0.989 0.788 0.938 0.987]
+Average accuracy 0.9432769891011752
+Cohen’s kappa score:  0.9613412531596837

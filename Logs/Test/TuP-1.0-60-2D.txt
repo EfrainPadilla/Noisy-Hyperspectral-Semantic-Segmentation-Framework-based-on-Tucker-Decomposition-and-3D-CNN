@@ -1,0 +1,20 @@
+2021-08-29 16:24:28.418614
+SNR= 60dB
+Alpha= alpha-1.0
+---The HSI selected is: paviaU ---
+The shape of the image is: (610, 340, 103)
+The shape of the labels is: (610, 340)
+Number of classes:  9
+Standard Scaler preprocessing method applied
+The new dimensions for the compressed HSI is: (610, 340, 40) obtained by Tucker
+The new shape of the data is:  (207400, 19, 19, 40)
+The new shape of the labels is:  (207400,)
+The data shape for train is: (8555, 19, 19, 40)
+The labels shape for train is: (8555,)
+The data shape for test is: (34221, 19, 19, 40)
+The labels shape for test is: (34221,)
+Traceback (most recent call last):
+  File "/home/eapadilla/HSI_Class2021_Paper/hsi_tucker_classifier2dcnn_ep.py", line 147, in <module>
+    from keras.models import Sequential
+ModuleNotFoundError: No module named 'keras'
+srun: error: cinv01: task 0: Exited with exit code 1

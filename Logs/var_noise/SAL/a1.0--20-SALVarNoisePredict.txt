@@ -1,0 +1,4 @@
+2022-02-20 06:07:43.441477: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 15945104304 exceeds 10% of free system memory.
+2022-02-20 06:06:04.294014
+Loading salinas HSI at: /home/eapadilla/HSI_Class2021_Paper/noisyDatasets/-20dB/alpha-1.0/
+Cohen’s kappa score:  0.4542940660481418

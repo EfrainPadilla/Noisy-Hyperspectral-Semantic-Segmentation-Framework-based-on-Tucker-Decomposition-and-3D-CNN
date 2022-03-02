@@ -1,0 +1,55 @@
+#!/bin/sh
+
+sbatch --job-name="iP-1.0-60-CR3D" --output Logs/iP-1.0-60-CR3D.txt Class_3DCNN_parametric.sh indianPines 1.0 60
+sbatch --job-name="iP-1.0-55-CR3D" --output Logs/iP-1.0-55-CR3D.txt Class_3DCNN_parametric.sh indianPines 1.0 55
+sbatch --job-name="iP-1.0-50-CR3D" --output Logs/iP-1.0-50-CR3D.txt Class_3DCNN_parametric.sh indianPines 1.0 50
+sbatch --job-name="iP-1.0-45-CR3D" --output Logs/iP-1.0-45-CR3D.txt Class_3DCNN_parametric.sh indianPines 1.0 45
+sbatch --job-name="iP-1.0-40-CR3D" --output Logs/iP-1.0-40-CR3D.txt Class_3DCNN_parametric.sh indianPines 1.0 40
+sbatch --job-name="iP-1.0-35-CR3D" --output Logs/iP-1.0-35-CR3D.txt Class_3DCNN_parametric.sh indianPines 1.0 35
+sbatch --job-name="iP-1.0-30-CR3D" --output Logs/iP-1.0-30-CR3D.txt Class_3DCNN_parametric.sh indianPines 1.0 30
+sbatch --job-name="iP-1.0-25-CR3D" --output Logs/iP-1.0-25-CR3D.txt Class_3DCNN_parametric.sh indianPines 1.0 25
+sbatch --job-name="iP-1.0-20-CR3D" --output Logs/iP-1.0-20-CR3D.txt Class_3DCNN_parametric.sh indianPines 1.0 20
+sbatch --job-name="iP-1.0-15-CR3D" --output Logs/iP-1.0-15-CR3D.txt Class_3DCNN_parametric.sh indianPines 1.0 15
+sbatch --job-name="iP-1.0-10-CR3D" --output Logs/iP-1.0-10-CR3D.txt Class_3DCNN_parametric.sh indianPines 1.0 10
+sbatch --job-name="iP-1.0-5-CR3D" --output Logs/iP-1.0-5-CR3D.txt Class_3DCNN_parametric.sh indianPines 1.0 5
+sbatch --job-name="iP-1.0-0-CR3D" --output Logs/iP-1.0-0-CR3D.txt Class_3DCNN_parametric.sh indianPines 1.0 0
+sbatch --job-name="iP-1.0--5-CR3D" --output Logs/iP-1.0--5-CR3D.txt Class_3DCNN_parametric.sh indianPines 1.0 -5
+sbatch --job-name="iP-1.0--10-CR3D" --output Logs/iP-1.0--10-CR3D.txt Class_3DCNN_parametric.sh indianPines 1.0 -10
+sbatch --job-name="iP-1.0--15-CR3D" --output Logs/iP-1.0--15-CR3D.txt Class_3DCNN_parametric.sh indianPines 1.0 -15
+sbatch --job-name="iP-1.0--20-CR3D" --output Logs/iP-1.0--20-CR3D.txt Class_3DCNN_parametric.sh indianPines 1.0 -20
+
+sbatch --job-name="uP-1.0-60-CR3D" --output Logs/uP-1.0-60-CR3D.txt Class_3DCNN_parametric.sh paviaU 1.0 60
+sbatch --job-name="uP-1.0-55-CR3D" --output Logs/uP-1.0-55-CR3D.txt Class_3DCNN_parametric.sh paviaU 1.0 55
+sbatch --job-name="uP-1.0-50-CR3D" --output Logs/uP-1.0-50-CR3D.txt Class_3DCNN_parametric.sh paviaU 1.0 50
+sbatch --job-name="uP-1.0-45-CR3D" --output Logs/uP-1.0-45-CR3D.txt Class_3DCNN_parametric.sh paviaU 1.0 45
+sbatch --job-name="uP-1.0-40-CR3D" --output Logs/uP-1.0-40-CR3D.txt Class_3DCNN_parametric.sh paviaU 1.0 40
+sbatch --job-name="uP-1.0-35-CR3D" --output Logs/uP-1.0-35-CR3D.txt Class_3DCNN_parametric.sh paviaU 1.0 35
+sbatch --job-name="uP-1.0-30-CR3D" --output Logs/uP-1.0-30-CR3D.txt Class_3DCNN_parametric.sh paviaU 1.0 30
+sbatch --job-name="uP-1.0-25-CR3D" --output Logs/uP-1.0-25-CR3D.txt Class_3DCNN_parametric.sh paviaU 1.0 25
+sbatch --job-name="uP-1.0-20-CR3D" --output Logs/uP-1.0-20-CR3D.txt Class_3DCNN_parametric.sh paviaU 1.0 20
+sbatch --job-name="uP-1.0-15-CR3D" --output Logs/uP-1.0-15-CR3D.txt Class_3DCNN_parametric.sh paviaU 1.0 15
+sbatch --job-name="uP-1.0-10-CR3D" --output Logs/uP-1.0-10-CR3D.txt Class_3DCNN_parametric.sh paviaU 1.0 10
+sbatch --job-name="uP-1.0-5-CR3D" --output Logs/uP-1.0-5-CR3D.txt Class_3DCNN_parametric.sh paviaU 1.0 5
+sbatch --job-name="uP-1.0-0-CR3D" --output Logs/uP-1.0-0-CR3D.txt Class_3DCNN_parametric.sh paviaU 1.0 0
+sbatch --job-name="uP-1.0--5-CR3D" --output Logs/uP-1.0--5-CR3D.txt Class_3DCNN_parametric.sh paviaU 1.0 -5
+sbatch --job-name="uP-1.0--10-CR3D" --output Logs/uP-1.0--10-CR3D.txt Class_3DCNN_parametric.sh paviaU 1.0 -10
+sbatch --job-name="uP-1.0--15-CR3D" --output Logs/uP-1.0--15-CR3D.txt Class_3DCNN_parametric.sh paviaU 1.0 -15
+sbatch --job-name="uP-1.0--20-CR3D" --output Logs/uP-1.0--20-CR3D.txt Class_3DCNN_parametric.sh paviaU 1.0 -20
+
+sbatch --job-name="sA-1.0-60-CR3D" --output Logs/sA-1.0-60-CR3D.txt Class_3DCNN_parametric.sh salinas 1.0 60
+sbatch --job-name="sA-1.0-55-CR3D" --output Logs/sA-1.0-55-CR3D.txt Class_3DCNN_parametric.sh salinas 1.0 55
+sbatch --job-name="sA-1.0-50-CR3D" --output Logs/sA-1.0-50-CR3D.txt Class_3DCNN_parametric.sh salinas 1.0 50
+sbatch --job-name="sA-1.0-45-CR3D" --output Logs/sA-1.0-45-CR3D.txt Class_3DCNN_parametric.sh salinas 1.0 45
+sbatch --job-name="sA-1.0-40-CR3D" --output Logs/sA-1.0-40-CR3D.txt Class_3DCNN_parametric.sh salinas 1.0 40
+sbatch --job-name="sA-1.0-35-CR3D" --output Logs/sA-1.0-35-CR3D.txt Class_3DCNN_parametric.sh salinas 1.0 35
+sbatch --job-name="sA-1.0-30-CR3D" --output Logs/sA-1.0-30-CR3D.txt Class_3DCNN_parametric.sh salinas 1.0 30
+sbatch --job-name="sA-1.0-25-CR3D" --output Logs/sA-1.0-25-CR3D.txt Class_3DCNN_parametric.sh salinas 1.0 25
+sbatch --job-name="sA-1.0-20-CR3D" --output Logs/sA-1.0-20-CR3D.txt Class_3DCNN_parametric.sh salinas 1.0 20
+sbatch --job-name="sA-1.0-15-CR3D" --output Logs/sA-1.0-15-CR3D.txt Class_3DCNN_parametric.sh salinas 1.0 15
+sbatch --job-name="sA-1.0-10-CR3D" --output Logs/sA-1.0-10-CR3D.txt Class_3DCNN_parametric.sh salinas 1.0 10
+sbatch --job-name="sA-1.0-5-CR3D" --output Logs/sA-1.0-5-CR3D.txt Class_3DCNN_parametric.sh salinas 1.0 5
+sbatch --job-name="sA-1.0-0-CR3D" --output Logs/sA-1.0-0-CR3D.txt Class_3DCNN_parametric.sh salinas 1.0 0
+sbatch --job-name="sA-1.0--5-CR3D" --output Logs/sA-1.0--5-CR3D.txt Class_3DCNN_parametric.sh salinas 1.0 -5
+sbatch --job-name="sA-1.0--10-CR3D" --output Logs/sA-1.0--10-CR3D.txt Class_3DCNN_parametric.sh salinas 1.0 -10
+sbatch --job-name="sA-1.0--15-CR3D" --output Logs/sA-1.0--15-CR3D.txt Class_3DCNN_parametric.sh salinas 1.0 -15
+sbatch --job-name="sA-1.0--20-CR3D" --output Logs/sA-1.0--20-CR3D.txt Class_3DCNN_parametric.sh salinas 1.0 -20

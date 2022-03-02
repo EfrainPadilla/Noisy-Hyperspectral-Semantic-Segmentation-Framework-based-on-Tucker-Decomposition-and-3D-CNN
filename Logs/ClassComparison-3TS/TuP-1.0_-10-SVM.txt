@@ -1,0 +1,41 @@
+2021-09-17 05:25:39.553580
+SNR= -10dB
+Alpha= alpha-1.0
+---The HSI selected is: paviaU ---
+The shape of the image is: (610, 340, 103)
+The shape of the labels is: (610, 340)
+Number of classes:  9
+Standard Scaler preprocessing method applied
+The new dimensions for the compressed HSI is: (610, 340, 40) obtained by Tucker
+The data shape for train is: (1283, 40)
+The labels shape for train is: (1283,)
+The data shape for test is: (41493, 40)
+The labels shape for test is: (41493,)
+
+Terminado en 0.5208806991577148 segundos!
+
+
+Trained!
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00      6432
+           1       0.44      1.00      0.61     18090
+           2       0.00      0.00      0.00      2036
+           3       0.00      0.00      0.00      2972
+           4       0.00      0.00      0.00      1305
+           5       0.00      0.00      0.00      4878
+           6       0.00      0.00      0.00      1290
+           7       0.00      0.00      0.00      3571
+           8       0.00      0.00      0.00       919
+
+    accuracy                           0.44     41493
+   macro avg       0.05      0.11      0.07     41493
+weighted avg       0.19      0.44      0.26     41493
+
+Accuracy Score: 0.43597715277275684
+Accuracy by each class: [0. 1. 0. 0. 0. 0. 0. 0. 0.]
+Average accuracy 0.1111111111111111
+Cohen’s kappa score:  0.0
+/home/eapadilla/anaconda3/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))

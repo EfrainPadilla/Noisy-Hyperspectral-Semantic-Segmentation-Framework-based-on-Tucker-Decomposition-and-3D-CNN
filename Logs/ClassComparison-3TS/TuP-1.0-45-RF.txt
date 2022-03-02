@@ -1,0 +1,39 @@
+2021-09-17 05:34:48.329167
+SNR= 45dB
+Alpha= alpha-1.0
+---The HSI selected is: paviaU ---
+The shape of the image is: (610, 340, 103)
+The shape of the labels is: (610, 340)
+Number of classes:  9
+Standard Scaler preprocessing method applied
+The new dimensions for the compressed HSI is: (610, 340, 40) obtained by Tucker
+The data shape for train is: (1283, 40)
+The labels shape for train is: (1283,)
+The data shape for test is: (41493, 40)
+The labels shape for test is: (41493,)
+
+Terminado en 5.483871936798096 segundos!
+
+
+Trained!
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.87      0.88      6432
+           1       0.87      0.98      0.92     18090
+           2       0.75      0.32      0.45      2036
+           3       0.96      0.85      0.90      2972
+           4       1.00      0.99      1.00      1305
+           5       0.90      0.56      0.69      4878
+           6       0.75      0.73      0.74      1290
+           7       0.67      0.91      0.77      3571
+           8       0.98      1.00      0.99       919
+
+    accuracy                           0.86     41493
+   macro avg       0.86      0.80      0.81     41493
+weighted avg       0.86      0.86      0.85     41493
+
+Accuracy Score: 0.8579278432506688
+Accuracy by each class: [0.869 0.979 0.318 0.847 0.995 0.559 0.733 0.911 0.996]
+Average accuracy 0.8006271757669042
+Cohen’s kappa score:  0.8070500193881015

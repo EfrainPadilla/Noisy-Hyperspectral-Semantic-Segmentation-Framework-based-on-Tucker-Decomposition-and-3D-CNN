@@ -1,0 +1,271 @@
+2021-02-12 19:34:04.403781: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.1/lib64:/usr/local/cuda-10.1/lib64
+2021-02-12 19:34:04.403889: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.1/lib64:/usr/local/cuda-10.1/lib64
+2021-02-12 19:34:04.403900: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2021-02-12 19:34:06.967349: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-02-12 19:34:07.877068: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:37:00.0 name: Tesla V100-PCIE-16GB computeCapability: 7.0
+coreClock: 1.38GHz coreCount: 80 deviceMemorySize: 15.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2021-02-12 19:34:07.877371: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2021-02-12 19:34:07.879744: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2021-02-12 19:34:07.882149: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2021-02-12 19:34:07.882495: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2021-02-12 19:34:07.885024: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2021-02-12 19:34:07.886299: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2021-02-12 19:34:07.891421: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-02-12 19:34:07.893363: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2021-02-12 19:34:07.893957: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2021-02-12 19:34:07.913289: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+2021-02-12 19:34:07.918531: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4efd3c0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-02-12 19:34:07.918569: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-02-12 19:34:08.049990: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4f63a80 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2021-02-12 19:34:08.050073: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla V100-PCIE-16GB, Compute Capability 7.0
+2021-02-12 19:34:08.053453: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:37:00.0 name: Tesla V100-PCIE-16GB computeCapability: 7.0
+coreClock: 1.38GHz coreCount: 80 deviceMemorySize: 15.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2021-02-12 19:34:08.053582: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2021-02-12 19:34:08.053633: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2021-02-12 19:34:08.053694: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2021-02-12 19:34:08.053740: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2021-02-12 19:34:08.053785: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2021-02-12 19:34:08.053830: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2021-02-12 19:34:08.053875: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-02-12 19:34:08.059043: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2021-02-12 19:34:08.059102: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2021-02-12 19:34:08.061887: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-02-12 19:34:08.061909: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 
+2021-02-12 19:34:08.061924: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N 
+2021-02-12 19:34:08.065061: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15022 MB memory) -> physical GPU (device: 0, name: Tesla V100-PCIE-16GB, pci bus id: 0000:37:00.0, compute capability: 7.0)
+2021-02-12 19:34:10.843549: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2021-02-12 19:34:11.198790: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-02-12 19:33:51.991777
+SNR= 5dB
+Alpha= alpha-1.0
+---The HSI selected is: indianPines ---
+The shape of the image is: (145, 145, 200)
+The shape of the labels is: (145, 145)
+Number of classes:  16
+Standard Scaler preprocessing method applied
+The new shape of the data is:  (21025, 19, 19, 200)
+The new shape of the labels is:  (21025,)
+The data shape for train is: (512, 19, 19, 200)
+The labels shape for train is: (512,)
+The data shape for test is: (9737, 19, 19, 200)
+The labels shape for test is: (9737,)
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv3d_1 (Conv3D)            (None, 15, 15, 177, 32)   19232     
+_________________________________________________________________
+batch_normalization_1 (Batch (None, 15, 15, 177, 32)   128       
+_________________________________________________________________
+activation_1 (Activation)    (None, 15, 15, 177, 32)   0         
+_________________________________________________________________
+conv3d_2 (Conv3D)            (None, 11, 11, 162, 64)   819264    
+_________________________________________________________________
+batch_normalization_2 (Batch (None, 11, 11, 162, 64)   256       
+_________________________________________________________________
+activation_2 (Activation)    (None, 11, 11, 162, 64)   0         
+_________________________________________________________________
+max_pooling3d_1 (MaxPooling3 (None, 5, 5, 162, 64)     0         
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 259200)            0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 300)               77760300  
+_________________________________________________________________
+batch_normalization_3 (Batch (None, 300)               1200      
+_________________________________________________________________
+activation_3 (Activation)    (None, 300)               0         
+_________________________________________________________________
+dense_2 (Dense)              (None, 16)                4816      
+=================================================================
+Total params: 78,605,196
+Trainable params: 78,604,404
+Non-trainable params: 792
+_________________________________________________________________
+Train on 512 samples, validate on 9737 samples
+Epoch 1/50
+
+Epoch 00001: val_accuracy improved from -inf to 0.28109, saving model to /tmp/best_model.h5
+Epoch 2/50
+
+Epoch 00002: val_accuracy improved from 0.28109 to 0.28756, saving model to /tmp/best_model.h5
+Epoch 3/50
+
+Epoch 00003: val_accuracy did not improve from 0.28756
+Epoch 4/50
+
+Epoch 00004: val_accuracy did not improve from 0.28756
+Epoch 5/50
+
+Epoch 00005: val_accuracy did not improve from 0.28756
+Epoch 6/50
+
+Epoch 00006: val_accuracy did not improve from 0.28756
+Epoch 7/50
+
+Epoch 00007: val_accuracy did not improve from 0.28756
+Epoch 8/50
+
+Epoch 00008: val_accuracy improved from 0.28756 to 0.29383, saving model to /tmp/best_model.h5
+Epoch 9/50
+
+Epoch 00009: val_accuracy improved from 0.29383 to 0.29660, saving model to /tmp/best_model.h5
+Epoch 10/50
+
+Epoch 00010: val_accuracy improved from 0.29660 to 0.33070, saving model to /tmp/best_model.h5
+Epoch 11/50
+
+Epoch 00011: val_accuracy improved from 0.33070 to 0.37856, saving model to /tmp/best_model.h5
+Epoch 12/50
+
+Epoch 00012: val_accuracy improved from 0.37856 to 0.39211, saving model to /tmp/best_model.h5
+Epoch 13/50
+
+Epoch 00013: val_accuracy improved from 0.39211 to 0.41522, saving model to /tmp/best_model.h5
+Epoch 14/50
+
+Epoch 00014: val_accuracy improved from 0.41522 to 0.41676, saving model to /tmp/best_model.h5
+Epoch 15/50
+
+Epoch 00015: val_accuracy improved from 0.41676 to 0.41758, saving model to /tmp/best_model.h5
+Epoch 16/50
+
+Epoch 00016: val_accuracy improved from 0.41758 to 0.44901, saving model to /tmp/best_model.h5
+Epoch 17/50
+
+Epoch 00017: val_accuracy improved from 0.44901 to 0.47160, saving model to /tmp/best_model.h5
+Epoch 18/50
+
+Epoch 00018: val_accuracy did not improve from 0.47160
+Epoch 19/50
+
+Epoch 00019: val_accuracy improved from 0.47160 to 0.48105, saving model to /tmp/best_model.h5
+Epoch 20/50
+
+Epoch 00020: val_accuracy improved from 0.48105 to 0.48290, saving model to /tmp/best_model.h5
+Epoch 21/50
+
+Epoch 00021: val_accuracy improved from 0.48290 to 0.50005, saving model to /tmp/best_model.h5
+Epoch 22/50
+
+Epoch 00022: val_accuracy did not improve from 0.50005
+Epoch 23/50
+
+Epoch 00023: val_accuracy did not improve from 0.50005
+Epoch 24/50
+
+Epoch 00024: val_accuracy improved from 0.50005 to 0.50334, saving model to /tmp/best_model.h5
+Epoch 25/50
+
+Epoch 00025: val_accuracy improved from 0.50334 to 0.51412, saving model to /tmp/best_model.h5
+Epoch 26/50
+
+Epoch 00026: val_accuracy did not improve from 0.51412
+Epoch 27/50
+
+Epoch 00027: val_accuracy improved from 0.51412 to 0.53846, saving model to /tmp/best_model.h5
+Epoch 28/50
+
+Epoch 00028: val_accuracy improved from 0.53846 to 0.57122, saving model to /tmp/best_model.h5
+Epoch 29/50
+
+Epoch 00029: val_accuracy improved from 0.57122 to 0.58581, saving model to /tmp/best_model.h5
+Epoch 30/50
+
+Epoch 00030: val_accuracy did not improve from 0.58581
+Epoch 31/50
+
+Epoch 00031: val_accuracy improved from 0.58581 to 0.61538, saving model to /tmp/best_model.h5
+Epoch 32/50
+
+Epoch 00032: val_accuracy improved from 0.61538 to 0.63952, saving model to /tmp/best_model.h5
+Epoch 33/50
+
+Epoch 00033: val_accuracy did not improve from 0.63952
+Epoch 34/50
+
+Epoch 00034: val_accuracy improved from 0.63952 to 0.65657, saving model to /tmp/best_model.h5
+Epoch 35/50
+
+Epoch 00035: val_accuracy improved from 0.65657 to 0.72907, saving model to /tmp/best_model.h5
+Epoch 36/50
+
+Epoch 00036: val_accuracy did not improve from 0.72907
+Epoch 37/50
+
+Epoch 00037: val_accuracy did not improve from 0.72907
+Epoch 38/50
+
+Epoch 00038: val_accuracy did not improve from 0.72907
+Epoch 39/50
+
+Epoch 00039: val_accuracy improved from 0.72907 to 0.73000, saving model to /tmp/best_model.h5
+Epoch 40/50
+
+Epoch 00040: val_accuracy did not improve from 0.73000
+Epoch 41/50
+
+Epoch 00041: val_accuracy improved from 0.73000 to 0.77868, saving model to /tmp/best_model.h5
+Epoch 42/50
+
+Epoch 00042: val_accuracy did not improve from 0.77868
+Epoch 43/50
+
+Epoch 00043: val_accuracy did not improve from 0.77868
+Epoch 44/50
+
+Epoch 00044: val_accuracy improved from 0.77868 to 0.79367, saving model to /tmp/best_model.h5
+Epoch 45/50
+
+Epoch 00045: val_accuracy improved from 0.79367 to 0.81801, saving model to /tmp/best_model.h5
+Epoch 46/50
+
+Epoch 00046: val_accuracy improved from 0.81801 to 0.82777, saving model to /tmp/best_model.h5
+Epoch 47/50
+
+Epoch 00047: val_accuracy improved from 0.82777 to 0.83486, saving model to /tmp/best_model.h5
+Epoch 48/50
+
+Epoch 00048: val_accuracy improved from 0.83486 to 0.83958, saving model to /tmp/best_model.h5
+Epoch 49/50
+
+Epoch 00049: val_accuracy improved from 0.83958 to 0.84400, saving model to /tmp/best_model.h5
+Epoch 50/50
+
+Epoch 00050: val_accuracy improved from 0.84400 to 0.84554, saving model to /tmp/best_model.h5
+PARAMETERS 78605196
+
+Terminado en 2201.6843638420105 segundos!
+
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.48      0.65        44
+           1       0.92      0.73      0.82      1357
+           2       0.95      0.56      0.70       789
+           3       0.98      0.65      0.78       225
+           4       0.98      0.82      0.89       459
+           5       0.94      0.90      0.92       693
+           6       1.00      0.74      0.85        27
+           7       0.93      1.00      0.96       454
+           8       1.00      0.42      0.59        19
+           9       0.91      0.72      0.80       923
+          10       0.71      0.99      0.83      2332
+          11       0.83      0.79      0.81       563
+          12       0.96      0.99      0.97       195
+          13       0.90      0.99      0.94      1202
+          14       0.84      0.75      0.79       367
+          15       0.90      0.72      0.80        88
+
+    accuracy                           0.85      9737
+   macro avg       0.92      0.77      0.82      9737
+weighted avg       0.87      0.85      0.84      9737
+
+Accuracy Score: 0.8455376399301633
+Accuracy by each class: [0.477 0.735 0.556 0.653 0.817 0.899 0.741 1.    0.421 0.719 0.992 0.789
+ 0.995 0.994 0.749 0.716]
+Average accuracy 0.7658796995278774
+Cohen’s kappa score:  0.8208361983392229
+Using TensorFlow backend.

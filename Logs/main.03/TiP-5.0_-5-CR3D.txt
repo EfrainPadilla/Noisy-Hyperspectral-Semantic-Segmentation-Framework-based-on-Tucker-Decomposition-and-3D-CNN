@@ -1,0 +1,201 @@
+2021-07-28 01:40:33.939953
+SNR= -5dB
+Alpha= alpha-5.0
+---The HSI selected is: indianPines ---
+The shape of the image is: (145, 145, 200)
+The shape of the labels is: (145, 145)
+Number of classes:  16
+Standard Scaler preprocessing method applied
+The new dimensions for the compressed HSI is: (145, 145, 40) obtained by Tucker
+The new shape of the data is:  (21025, 19, 19, 40)
+The new shape of the labels is:  (21025,)
+The data shape for train is: (307, 19, 19, 40)
+The labels shape for train is: (307,)
+The data shape for test is: (9942, 19, 19, 40)
+The labels shape for test is: (9942,)
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv3d (Conv3D)              (None, 15, 15, 17, 32)    19232     
+_________________________________________________________________
+batch_normalization (BatchNo (None, 15, 15, 17, 32)    128       
+_________________________________________________________________
+activation (Activation)      (None, 15, 15, 17, 32)    0         
+_________________________________________________________________
+conv3d_1 (Conv3D)            (None, 11, 11, 2, 64)     819264    
+_________________________________________________________________
+batch_normalization_1 (Batch (None, 11, 11, 2, 64)     256       
+_________________________________________________________________
+activation_1 (Activation)    (None, 11, 11, 2, 64)     0         
+_________________________________________________________________
+max_pooling3d (MaxPooling3D) (None, 5, 5, 2, 64)       0         
+_________________________________________________________________
+flatten (Flatten)            (None, 3200)              0         
+_________________________________________________________________
+dense (Dense)                (None, 300)               960300    
+_________________________________________________________________
+batch_normalization_2 (Batch (None, 300)               1200      
+_________________________________________________________________
+activation_2 (Activation)    (None, 300)               0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 16)                4816      
+=================================================================
+Total params: 1,805,196
+Trainable params: 1,804,404
+Non-trainable params: 792
+_________________________________________________________________
+Epoch 1/40
+
+Epoch 00001: val_accuracy improved from -inf to 0.40414, saving model to /tmp/best_model.h5
+Epoch 2/40
+
+Epoch 00002: val_accuracy did not improve from 0.40414
+Epoch 3/40
+
+Epoch 00003: val_accuracy did not improve from 0.40414
+Epoch 4/40
+
+Epoch 00004: val_accuracy did not improve from 0.40414
+Epoch 5/40
+
+Epoch 00005: val_accuracy did not improve from 0.40414
+Epoch 6/40
+
+Epoch 00006: val_accuracy did not improve from 0.40414
+Epoch 7/40
+
+Epoch 00007: val_accuracy did not improve from 0.40414
+Epoch 8/40
+
+Epoch 00008: val_accuracy did not improve from 0.40414
+Epoch 9/40
+
+Epoch 00009: val_accuracy did not improve from 0.40414
+Epoch 10/40
+
+Epoch 00010: val_accuracy improved from 0.40414 to 0.41410, saving model to /tmp/best_model.h5
+Epoch 11/40
+
+Epoch 00011: val_accuracy improved from 0.41410 to 0.51479, saving model to /tmp/best_model.h5
+Epoch 12/40
+
+Epoch 00012: val_accuracy improved from 0.51479 to 0.55623, saving model to /tmp/best_model.h5
+Epoch 13/40
+
+Epoch 00013: val_accuracy did not improve from 0.55623
+Epoch 14/40
+
+Epoch 00014: val_accuracy did not improve from 0.55623
+Epoch 15/40
+
+Epoch 00015: val_accuracy improved from 0.55623 to 0.56085, saving model to /tmp/best_model.h5
+Epoch 16/40
+
+Epoch 00016: val_accuracy improved from 0.56085 to 0.57151, saving model to /tmp/best_model.h5
+Epoch 17/40
+
+Epoch 00017: val_accuracy improved from 0.57151 to 0.57604, saving model to /tmp/best_model.h5
+Epoch 18/40
+
+Epoch 00018: val_accuracy improved from 0.57604 to 0.59213, saving model to /tmp/best_model.h5
+Epoch 19/40
+
+Epoch 00019: val_accuracy improved from 0.59213 to 0.59757, saving model to /tmp/best_model.h5
+Epoch 20/40
+
+Epoch 00020: val_accuracy did not improve from 0.59757
+Epoch 21/40
+
+Epoch 00021: val_accuracy did not improve from 0.59757
+Epoch 22/40
+
+Epoch 00022: val_accuracy did not improve from 0.59757
+Epoch 23/40
+
+Epoch 00023: val_accuracy improved from 0.59757 to 0.60270, saving model to /tmp/best_model.h5
+Epoch 24/40
+
+Epoch 00024: val_accuracy improved from 0.60270 to 0.61165, saving model to /tmp/best_model.h5
+Epoch 25/40
+
+Epoch 00025: val_accuracy did not improve from 0.61165
+Epoch 26/40
+
+Epoch 00026: val_accuracy did not improve from 0.61165
+Epoch 27/40
+
+Epoch 00027: val_accuracy did not improve from 0.61165
+Epoch 28/40
+
+Epoch 00028: val_accuracy did not improve from 0.61165
+Epoch 29/40
+
+Epoch 00029: val_accuracy did not improve from 0.61165
+Epoch 30/40
+
+Epoch 00030: val_accuracy did not improve from 0.61165
+Epoch 31/40
+
+Epoch 00031: val_accuracy did not improve from 0.61165
+Epoch 32/40
+
+Epoch 00032: val_accuracy did not improve from 0.61165
+Epoch 33/40
+
+Epoch 00033: val_accuracy did not improve from 0.61165
+Epoch 34/40
+
+Epoch 00034: val_accuracy did not improve from 0.61165
+Epoch 35/40
+
+Epoch 00035: val_accuracy did not improve from 0.61165
+Epoch 36/40
+
+Epoch 00036: val_accuracy did not improve from 0.61165
+Epoch 37/40
+
+Epoch 00037: val_accuracy did not improve from 0.61165
+Epoch 38/40
+
+Epoch 00038: val_accuracy did not improve from 0.61165
+Epoch 39/40
+
+Epoch 00039: val_accuracy did not improve from 0.61165
+Epoch 40/40
+
+Epoch 00040: val_accuracy did not improve from 0.61165
+PARAMETERS 1805196
+
+Terminado en 57.28248119354248 segundos!
+
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.02      0.04        45
+           1       0.79      0.39      0.53      1385
+           2       0.39      0.74      0.51       805
+           3       1.00      0.15      0.26       230
+           4       0.35      0.40      0.38       469
+           5       0.85      0.64      0.73       708
+           6       1.00      0.15      0.26        27
+           7       0.80      0.90      0.85       464
+           8       1.00      0.16      0.27        19
+           9       0.72      0.29      0.41       943
+          10       0.69      0.83      0.75      2382
+          11       0.87      0.23      0.36       575
+          12       1.00      0.20      0.33       199
+          13       0.87      0.84      0.85      1227
+          14       0.25      0.92      0.39       374
+          15       1.00      0.48      0.65        90
+
+    accuracy                           0.61      9942
+   macro avg       0.79      0.46      0.47      9942
+weighted avg       0.72      0.61      0.60      9942
+
+Accuracy Score: 0.6116475558237779
+Accuracy by each class: [0.022 0.394 0.739 0.152 0.403 0.638 0.148 0.903 0.158 0.291 0.829 0.226
+ 0.201 0.843 0.917 0.478]
+Average accuracy 0.4588410563656766
+Cohen’s kappa score:  0.5561522105696723

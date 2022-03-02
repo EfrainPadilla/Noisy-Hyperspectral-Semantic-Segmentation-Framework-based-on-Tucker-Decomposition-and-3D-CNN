@@ -1,0 +1,3 @@
+2022-02-18 19:15:03.714600
+Loading indianPines HSI at: /home/eapadilla/HSI_Class2021_Paper/noisyDatasets/15dB/alpha-2.0/
+Cohen’s kappa score:  0.9744153208300773

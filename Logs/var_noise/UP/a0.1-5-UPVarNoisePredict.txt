@@ -1,0 +1,3 @@
+2022-02-18 15:47:13.799909
+Loading paviaU HSI at: /home/eapadilla/HSI_Class2021_Paper/noisyDatasets/5dB/alpha-0.1/
+Cohen’s kappa score:  0.9988228018912745

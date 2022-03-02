@@ -1,0 +1,50 @@
+2021-09-17 05:31:50.355877
+SNR= -5dB
+Alpha= alpha-1.0
+---The HSI selected is: salinas ---
+The shape of the image is: (512, 217, 204)
+The shape of the labels is: (512, 217)
+Number of classes:  16
+Standard Scaler preprocessing method applied
+The new dimensions for the compressed HSI is: (512, 217, 40) obtained by Tucker
+The data shape for train is: (1623, 40)
+The labels shape for train is: (1623,)
+The data shape for test is: (52506, 40)
+The labels shape for test is: (52506,)
+
+Terminado en 0.6816353797912598 segundos!
+
+
+Trained!
+Classification report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.40      0.57      1949
+           1       0.98      0.50      0.67      3614
+           2       0.00      0.00      0.00      1917
+           3       0.00      0.00      0.00      1352
+           4       0.00      0.00      0.00      2598
+           5       0.00      0.00      0.00      3840
+           6       0.99      0.61      0.75      3472
+           7       0.23      0.99      0.37     10933
+           8       1.00      0.00      0.00      6017
+           9       0.00      0.00      0.00      3180
+          10       0.00      0.00      0.00      1036
+          11       0.00      0.00      0.00      1869
+          12       0.00      0.00      0.00       888
+          13       0.00      0.00      0.00      1038
+          14       0.70      0.04      0.07      7050
+          15       1.00      0.00      0.01      1753
+
+    accuracy                           0.30     52506
+   macro avg       0.37      0.16      0.15     52506
+weighted avg       0.46      0.30      0.20     52506
+
+Accuracy Score: 0.3007656267855102
+Accuracy by each class: [3.966e-01 5.039e-01 0.000e+00 0.000e+00 0.000e+00 0.000e+00 6.060e-01
+ 9.899e-01 6.648e-04 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 3.702e-02 3.423e-03]
+Average accuracy 0.15859535854641682
+Cohen’s kappa score:  0.13192523484421304
+/home/eapadilla/anaconda3/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))

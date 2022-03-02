@@ -1,0 +1,49 @@
+/home/eapadilla/anaconda3/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2021-09-17 05:33:06.015218
+SNR= -20dB
+Alpha= alpha-1.0
+---The HSI selected is: salinas ---
+The shape of the image is: (512, 217, 204)
+The shape of the labels is: (512, 217)
+Number of classes:  16
+Standard Scaler preprocessing method applied
+The new dimensions for the compressed HSI is: (512, 217, 40) obtained by Tucker
+The data shape for train is: (1623, 40)
+The labels shape for train is: (1623,)
+The data shape for test is: (52506, 40)
+The labels shape for test is: (52506,)
+
+Terminado en 0.7158594131469727 segundos!
+
+
+Trained!
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00      1949
+           1       1.00      0.00      0.00      3614
+           2       0.00      0.00      0.00      1917
+           3       0.00      0.00      0.00      1352
+           4       0.00      0.00      0.00      2598
+           5       0.00      0.00      0.00      3840
+           6       1.00      0.00      0.00      3472
+           7       0.21      1.00      0.34     10933
+           8       0.00      0.00      0.00      6017
+           9       0.00      0.00      0.00      3180
+          10       0.00      0.00      0.00      1036
+          11       0.00      0.00      0.00      1869
+          12       0.00      0.00      0.00       888
+          13       0.00      0.00      0.00      1038
+          14       0.00      0.00      0.00      7050
+          15       0.00      0.00      0.00      1753
+
+    accuracy                           0.21     52506
+   macro avg       0.14      0.06      0.02     52506
+weighted avg       0.18      0.21      0.07     52506
+
+Accuracy Score: 0.20841427646364225
+Accuracy by each class: [0.    0.002 0.    0.    0.    0.    0.001 1.    0.    0.    0.    0.
+ 0.    0.    0.    0.   ]
+Average accuracy 0.06267576775162642
+Cohen’s kappa score:  0.0002743215160863066
