@@ -1,15 +1,2 @@
-**/alpha-0.1/*.npy
-**/alpha-0.2/*.npy
-**/alpha-0.5/*.npy
-**/alpha-0.25/*.npy
-**/alpha-0.33/*.npy
-**/alpha-1.0/*.npy
-**/alpha-2.0/*.npy
-**/alpha-3.0/*.npy
-**/alpha-4.0/*.npy
-**/alpha-5.0/*.npy
-**/alpha-10.0/*.npy
-/TrainedModels/indianPines/*
-/TrainedModels/paviaU/*
-/TrainedModels/salinas/*
+
 
