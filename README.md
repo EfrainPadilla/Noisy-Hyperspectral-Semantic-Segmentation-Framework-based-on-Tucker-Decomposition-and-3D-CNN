@@ -1,5 +1,5 @@
 # Noisy-Hyperspectral-Semantic-Segmentation-Framework
-Code of the Publication "A Semantic Segmentation Framework based on Tucker Decomposition and Deep Learning for Noisy Scenarios of Hyperspectral Imagery" (Will be published soon)
+Code of the Publication "A Semantic Segmentation Framework for Hyperspectral Imagery Based on Tucker Decomposition and 3DCNN Tested with Simulated Noisy Scenarios" (Will be published soon)
 Authors: Efrain Padilla-Zepeda, Deni Torres-Roman, Andres Mendez-Vazquez
 
 The implementation of Deep Learning Models is based on the code of @mhaut https://github.com/mhaut/hyperspectral_deeplearning_review
